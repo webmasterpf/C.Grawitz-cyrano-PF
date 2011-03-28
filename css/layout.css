@@ -231,241 +231,48 @@ h6 {
 	width:235px;
 	right:0px;
 }
-/*LAYOUT PAGE ACTUALITES*/
-#content-inner-actualites{
-width:300px;
-margin:0 auto;
-float:left;
-background-color:transparent;
-border-left: 1px solid #11B0D5;
-border-right: 1px solid #11B0D5;
-}
-#left-content-actualites{
-    float:left;
-    position:relative;
-    /*background:transparent url('../images/titre_revue_presse.gif') no-repeat top left;*/
-    width:330px;
-    left:0px;
-    padding:25px 5px 5px;
-}
-.views-field-title a{
-    font-size: 14px;
-    font-weight: bold;
-    color: #11B0D5;
-}
-.views-field-teaser a{
-    color: black;
-}
-#middle-content-actualites{
-    float:left;
-    position:relative;
-    /*background: transparent url('../images/titre_texte_reference.gif') no-repeat left top;*/
-    width:auto;
-    padding:5px;
-
-}
-
-#actualite-association{
-     width:auto;
-     height: auto;
-     display: block;
-     padding: 25px 10px 10px 10px;
-     margin: 0 0 15px 0;
-     background: transparent;
-     border-bottom: 1px solid #11B0D5;
-}
-
-#actualite-intervenants{
-     width:auto;
-     height: auto;
-     display: block;
-     padding: 25px 5px 0;
-     margin: 0 0 15px 0;
-     background: #EFEFEF /*url('../images/titre_actu_association.gif') no-repeat top left*/;
-}
-#right-content-actualites{
-    float:right;
-    position:relative;
-    /*background:#FFF url('../images/titre_actu_lycees.gif') no-repeat top left;*/
-    width:330px;
-    right:0px;
-    padding:25px 5px 5px;
-    }
-    /*CSS pour les titres avec typo perso*/
-#contentPageActu h3.block-title, #middle-content-actualites h2{
-    font-family: Arista,Trebuchet MS,sans serif;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 5px 0;
-    text-align:center;
-}
-#right-content-actualites h3.block-title {
-    color: purple;
-}
-#left-content-actualites h3.block-title{
-    color: #E2017B;
-}
-#actualite-association h3.block-title{
-    color: #E3001B;
-}
-/*LAYOUT SORTIE ACTIONS*/
-#left-content-sortie-actions{
-	float:left;
-	position:relative;
-	background-color:transparent;
-	width:225px;
-	left:0px;
-}
-
-#right-content-sortie-actions{
-	float:right;
-	position:relative;
-	background-color:#FF66CC;
-	width:200px;
-	right:0px;
-}
-
-#content-inner-sortie-actions{
-width:735px;
-margin:0 auto;
-float:left;
-background-color: white;
-
-}
-
-#middle-content-sortie-actions{
-    	float:left;
-	position:relative;
-	background-color:transparent;
-	width:735px !important;
-        width: 735px;
-	padding:5px;
-        margin: 0 auto;
-        border-left: 1px solid #E3007A;
-        border-right: 1px solid #11B0D5;
- }
- #galerie-node{
-     float: right;
-     background: red;
-}
- .gallery-container{
-     background: transparent;
-     /*float: right;*/
-}
- .gallery-container a,.gallery-container a:hover{
-   background: none;
-   text-decoration: none;
-}
-.img_centre{
-    margin: 3px;
-    text-align: center;
-    padding: 2px;
-    border: 0px solid #11B0D5;
-}
-/*LAYOUT PAGE VIE DU LYCEE*/
-#left-content-vie-lycee{
-   float:left;
-   position:relative;
-   background-color:transparent;
-   width:250px;
-}
-#content-inner-vie-lycee{
-    	float:left;
-	position:relative;
-	background-color:transparent;
-	width: 700px;
-}
-#middle-content-vie-lycee{
-       	float:left;
-	position:relative;
-	background-color:transparent;
-	width: 700px;
-	padding:5px;
-        margin: 0 auto;
-        border-left: 1px solid #ACC624;
-        border-right: 1px solid #11B0D5;
-}
-#right-content-vie-lycee{}
-/*LAYOUT PAGE CONTACT OU FORMULAIRE*/
-#left-content-contact{
-   float:left;
-   position:relative;
-   background-color:transparent;
-   width:250px;
-}
-#content-inner-contact{
-    	float:left;
-	position:relative;
-	background-color:transparent;
-	width: 700px;
-}
-#middle-content-contact{
-       	float:left;
-	position:relative;
-	background-color:transparent;
-	width: 700px;
-	padding:5px;
-        margin: 0 auto;
-        border-left: 1px solid #ACC624;
-        border-right: 1px solid #F8E91B;
-}
-#right-content-contact{}
-/*LAYOUT PAGE FICHES FORMATIONS*/
-#left-content-fiche-formations{
-   float:left;
-   position:relative;
-   background-color:transparent;
-   width:250px;
-   padding:3px;
-}
-#content-inner-fiche-formations{
-    	float:left;
-	position:relative;
-	background-color:transparent;
-	width: 700px;
-}
-#middle-content-fiche-formations{
-       	float:left;
-	position:relative;
-	background-color:transparent;
-	width: auto;
-	padding:5px;
-        margin: 0 auto;
-        border-left: 1px solid #E2017B;
-        border-right: 0px solid #F8E91B;
-}
-#right-content-fiche-formations{
+ /*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE LYCEE
+---------------------------------------------------*/
+#content-inner-page-lycee{
     width: auto;
-    padding: 0;
-    margin: 0;
+    margin:0;
+    float:left;
+    background-color:transparent;
 }
-/*LAYOUT PAGE MONDE PRO*/
-#left-content-pageMondePro{
-    width: 225px;
-    margin: 0;
-    padding: 0 5px;
+#middle-content-page-lycee  {
+    width: auto;
+    padding: 5px;
     float: left;
-}
-#content-inner-pageMondePro{
-    	float:left;
-	position:relative;
-	background-color:transparent;
-	width: 515px;
-}
-#middle-content-pageMondePro{
-       	float:left;
-	position:relative;
-	background-color:transparent;
-	width: auto;
-	padding:5px;
-        margin: 0 auto;
-        border-left: 1px solid #E2017B;
-        border-right: 0px solid #F8E91B;
-}
 
-#right-content-pageMondePro{
-    width: 230px;
-    padding: 0;
-    margin: 0;
-    float: right;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE LYCEE
+---------------------------------------------------*/
+
+#pageLycee_col_G1{
+    float: left;
+    width: 190px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+
+}
+#pageLycee_col_G2{
+    float: left;
+    width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #F29400;
+     border-left: 1px solid #91127D;
+}
+#pageLycee_col_G3{
+    float: left;
+    padding: 5px;
+    width: 210px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
 }

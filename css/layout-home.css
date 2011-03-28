@@ -216,3 +216,14 @@ text-decoration: none;
     position: relative;
     z-index:1;
 }
+/*---------------------------------------------------------
+--------------  HOMEPAGE POUR DIAPO3D
+-----------------------------------------------------------
+*/
+#Diapo3D{
+    margin: 0 auto;
+}
+#Diapo3DReg{
+    width: 880px;
+    margin: 0 auto;
+}

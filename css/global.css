@@ -254,170 +254,88 @@ padding:10px 0;
 .views-field-diplome a:hover{
    text-decoration: underline;
 }
-/*STYLE PAGE FORMATIONS INITIALES ARBRE*/
-#table-offre-formation, #table-offre-formation tbody{
-    width: 953px !important;
-    height: 491px !important;
-    border: 0;
-    border-collapse:collapse;
-    margin: 0;
-    padding: 0;
-    line-height: 0;
-   /* vertical-align: bottom;*/
+/*********************************
+----------------------------------
+---- PAGE LYCEE NODE.TPL ---------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+h1.titre_pl{
+    font-size: 24px;
+    color: #F29400;
+    line-height: 1.0em
+}
+h1.titre_pl a{}
+h1.titre_pl a:hover{}
+/*######-------- COLONNE G1 --------######*/
+#pageLycee_col_G1 h2{}
+#pageLycee_col_G1 h3{}
+#pageLycee_col_G1 h4{}
+#pageLycee_col_G1 p{}
+#pageLycee_col_G1 ul{}
+#pageLycee_col_G1 img{
+     border: 5px solid #fff;
+    -moz-box-shadow: #AAAAAA 0px 0px 5px ;
+    -webkit-box-shadow: #AAAAAA 0px 0px 5px;
+    box-shadow: #AAAAAA 0px 0px 5px;
 }
 
-#table-offre-formation tr{
-    width: 953px;
-    height: auto;
-    border: 0;
-     line-height: 0;
-     margin: 0;
-    padding: 0;
+#pageLycee_col_G1 a{}
+#pageLycee_col_G1 a:hover{}
+
+#pageLycee_col_G1 h2 a{}
+#pageLycee_col_G1 h2 a:hover{}
+#pageLycee_col_G1 h3 a{}
+#pageLycee_col_G1 h3 a:hover{}
+#pageLycee_col_G1 h4 a{}
+#pageLycee_col_G1 h4 a:hover{}
+/*######-------- COLONNE G2 --------######*/
+#pageLycee_col_G2 h2{
+    color: #ACC624;
+    padding: 5px;
 }
-#table-offre-formation td{
-    width: auto;
-    height: auto;
-    border: 0;
-     line-height: 0;
-     margin: 0;
-    padding: 0;
+#pageLycee_col_G2 h3{
+    color: #911381;
+    padding: 5px;
 }
-#table-offre-formation img{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    line-height: 0;
+#pageLycee_col_G2 h4{
+    padding: 5px;
+    color: #F29803;
 }
-/************************/
-/*STYLE FICHE FORMATION*/
-#middle-content-fiche-formations h2{
-     color: #11B0D5;
-     font-size: 14px;
+#pageLycee_col_G2 p{
+    padding: 5px;
 }
-#middle-content-fiche-formations h3{
-     font-size: 12px;
-     color: #93117E;
+#pageLycee_col_G2 ul{
+    padding: 5px;
 }
-#middle-content-fiche-formations ul{
-    list-style: square;
-}
-#middle-content-fiche-formations a{
-    color: #93117E;
-    text-decoration: none;
-}
-#middle-content-fiche-formations a:hover{
-    background:transparent;
-    color: #11B0D5;
-    text-decoration: underline;
-}
-/*STYLE PAGE ACTUALITE*/
-#left-content-actualites a{
-    text-decoration: none;
-   
-}
-#left-content-actualites a:hover{
-    text-decoration: underline;
-    color: #11B0D5;
-}
-#middle-content-actualites a{
-   /* color: #d63e2a;*/
-    text-decoration: none;
-    /*font-weight: bold;*/
-}
-#middle-content-actualites a:hover{
-    text-decoration: underline;
-}
-#actualite-association ul li{
-   list-style: square;
-}
-#actualite-association a{
-    text-decoration: underline;
-    color: black;
-    padding: 2px;
-}
-#actualite-association a:hover{
-    text-decoration: underline;
-    color: white;
-    background: #11B0D5;
-}
-#right-content-actualites a{
-    text-decoration: none;
-   
-}
-#right-content-actualites a:hover{
-     text-decoration: underline;
-    color: #11B0D5;
-}
-.view-liste-projets .views-row, .view-liste-sortie-action .views-row{
-    border-bottom: 1px solid #11B0D5;
-    margin:0 0 5px;
-}
-.view-liste-innovations a{
-    text-decoration: underline;
-    color: black;
-    padding: 2px;
+#pageLycee_col_G2 img{
+
 }
 
-/*PAGES ACTIVITE VIE DU LYCEE*/
-.item-list-activites{
-    margin: 0;
-}
-.item-list-activites h3{
-    color: #11B0D5;
-    padding:5px;
-    text-align:center;
-    font-size: 13px;
-}
-.item-list-activites a{
-    color: black;
-    text-decoration: none;
-}
-.item-list-activites a:hover{
-    color: black;
-    text-decoration: underline;
-}
-.item-list-activites ul{
-    list-style: none;
-}
-.item-list-activites li{
-    list-style: none;
-    background: #EFEFEF;
-    padding: 3px;
-    margin:0 3px 3px;
-}
-.item-list-activites .views-field-title a{
-    font-weight: bold;
-    text-transform: capitalize;
-    color: #E7512F;
-}
-.view-liste-activites-lycee a.field-content{
-    color: red;
-}
-.field-field-video-externe{
-    margin: 0 auto;
-    padding: 0;
-    width:425px;
-}
-/*PAGE NODE MONDE PRO*/
-#table-fichiers{
-    border: 0;
-    width: 90%;
-    margin: 0 auto;
+#pageLycee_col_G2 a{}
+#pageLycee_col_G2 a:hover{}
+
+#pageLycee_col_G2 h2 a{}
+#pageLycee_col_G2 h2 a:hover{}
+#pageLycee_col_G2 h3 a{}
+#pageLycee_col_G2 h3 a:hover{}
+#pageLycee_col_G2 h4 a{}
+#pageLycee_col_G2 h4 a:hover{}
+
+/*######-------- COLONNE G3 --------######*/
+#pageLycee_col_G3 h2{}
+#pageLycee_col_G3 h3{}
+#pageLycee_col_G3 h4{}
+#pageLycee_col_G3 p{}
+#pageLycee_col_G3 ul{}
+#pageLycee_col_G3 img{
+
 }
 
-#table-fichiers tr{}
+#pageLycee_col_G3 a{}
+#pageLycee_col_G3 a:hover{}
 
-#table-fichiers td{}
-
-#table-fichiers a{
-    color: #E30078;
-    text-decoration: none;
-}
-
-#table-fichiers a:hover{
-    background: #E30078;
-    color: white;
-}
-
-#middle-content-pageMondePro a{}
-#middle-content-pageMondePro a:hover{}
+#pageLycee_col_G3 h2 a{}
+#pageLycee_col_G3 h2 a:hover{}
+#pageLycee_col_G3 h3 a{}
+#pageLycee_col_G3 h3 a:hover{}
+#pageLycee_col_G3 h4 a{}
+#pageLycee_col_G3 h4 a:hover{}
