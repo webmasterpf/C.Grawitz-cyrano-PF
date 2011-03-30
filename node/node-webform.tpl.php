@@ -1,4 +1,5 @@
-<div class="node<?php if ($sticky) { print " sticky"; } ?><?php if (!$status) { print " node-unpublished"; } ?>
+<!-- NODE-WEBFORM.TPL GENERIK -->
+<div class="node<?php if ($sticky) { print " sticky"; } ?><?php if (!$status) { print " node-unpublished"; } ?>">
   <?php if ($picture) { print $picture; }?>
 
   <?php if ($page == 0) { ?>
@@ -19,6 +20,8 @@
     <table>
     <tr>
     <td><?php print $node->content['body']['#value']; ?></td>
+    </tr>
+    <tr>
     <td><?php print $node->content['webform']['#value']; ?></td>
     </tr>
     </table>

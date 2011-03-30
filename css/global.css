@@ -24,6 +24,17 @@ HOMEPAGE STYLE==================================
 #HPGauche2 li a:hover{
   text-decoration: underline;
 }
+/*-------------------------------------------------
+*********  COULEURS *****************
+gris anthracite #606070
+vert #ADC91F
+violet #911381
+orange #F29400
+bleu turquoise #01ABCF
+rouge #E3001C
+rose fushia #E3001C
+jaune #FAEB0C
+*/
 /*===============================================*/
 /**********STYLE POUR LES BLOCS*******************/
 /*===============================================*/
@@ -148,20 +159,22 @@ background: white;
 color:#000;
 text-decoration:underline;
 }
-.annonce{
-    color:#E2017B;
-    font-size:16px;
-    font-weight:bold;
-    margin:11px 0 0;
-    padding:0;
-    text-align:center;
+#annonce{
+    color: #E2017B;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 11px 0 0;
+    text-align: center;
+    width: 990px;
 }
-.annonce a{
+#annonce a{
     color: #93117E;
     text-decoration: none;
     font-weight: bold;
 }
-.annonce a:hover{
+#annonce a:hover{
     text-decoration: underline;
 }
 .image-photo-jeunes{
@@ -310,8 +323,15 @@ h1.titre_pl a:hover{}
 
 }
 
-#pageLycee_col_G2 a{}
-#pageLycee_col_G2 a:hover{}
+#pageLycee_col_G2 a{
+    color: #F29400;
+    text-decoration: none;
+    padding: 2px;
+}
+#pageLycee_col_G2 a:hover{
+    color: white;
+    background: #F29400;
+}
 
 #pageLycee_col_G2 h2 a{}
 #pageLycee_col_G2 h2 a:hover{}

@@ -145,7 +145,7 @@ color: #000000;
     padding:5px;
     width:970px;
     height:auto;
-    background: white url(../images/fieldset_top.gif) repeat-x scroll left 11px;
+    background: white url(../images/fieldset_top.gif) repeat-x scroll left 53px;
    }
   /*------------------------------------------------------*
   *------------ CSS H  ----*
@@ -253,7 +253,7 @@ LAYOUT POUR NODE.TPL PAGE LYCEE
 
 #pageLycee_col_G1{
     float: left;
-    width: 190px;
+    width: 195px;
     background: transparent;
     height: 100%;
     display: table-column;
@@ -271,7 +271,7 @@ LAYOUT POUR NODE.TPL PAGE LYCEE
 #pageLycee_col_G3{
     float: left;
     padding: 5px;
-    width: 210px;
+    width: 205px;
     background: transparent;
     height: 100%;
     display: table-cell;
