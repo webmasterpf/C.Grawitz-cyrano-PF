@@ -6,8 +6,8 @@
     <title><?php print $head_title; ?></title>
     <!-- stats-SEO -->
     <meta name="google-site-verification" content="msBEDS9QaIIEpzPS6_Wi-HOzKWr1Kw0dageOmF-4rbs" />
-    <meta name="y_key" content="e0a3005490e0c1fc"/>
-    <meta name="msvalidate.01" content="ADFD4C87A757AE4461AE5F7793002836" />
+    <META name="y_key" content="11677ed5e2db4f15" />
+    <meta name="msvalidate.01" content="E2114447554473259DE0996EF11B87E0" />
     <?php print $head; ?>
     <?php print $styles; ?>
     <?php print $scripts; ?>
