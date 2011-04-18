@@ -1,5 +1,5 @@
-name = C.Grawitz Cyrano inspired
-description = Theme pour site C.Grawitz - Design by Cyrano - Integration by Aiphes
+name = C.Grawitz inspired by Cyrano
+description = Theme pour site C.Grawitz - Design and Integration by Webmaster PF
 version = VERSION
 core = 6.x
 engine = phptemplate
