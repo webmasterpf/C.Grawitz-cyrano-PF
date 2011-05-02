@@ -359,3 +359,31 @@ h1.titre_pl a:hover{}
 #pageLycee_col_G3 h3 a:hover{}
 #pageLycee_col_G3 h4 a{}
 #pageLycee_col_G3 h4 a:hover{}
+
+/* Fichier joint dans page lycée*/
+#fichier-joint-plycee{
+    display: block;
+    margin: 0 auto;
+    width: 215px;
+    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+#fichier-joint-plycee h3{
+    font-family: arista,Trebuchet MS, sans-serif;
+    color: #911381;
+    padding: 5px;
+    text-align: center;
+
+}
+#fichier-joint-plycee a{
+    background: white;
+    color:#F29400;
+    padding: 2px;
+}
+#fichier-joint-plycee a:hover{
+    background: #F29400;
+    color: white;
+
+}

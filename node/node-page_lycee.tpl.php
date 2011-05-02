@@ -33,8 +33,16 @@
     <div class="content">
 
 
-
+        <?php if ($node->field_fichier_joint_lycee[0]['view']): ?>
+        <div id="fichier-joint-plycee">
+            <h3>Documents utiles</h3>
+           <?php  print $node->field_fichier_joint_lycee[0]['view'];?>
+        </div>
+           <?php endif;?>
+        
         <div id="bloc_docs_utiles_plycee">
+            
+
                <?php  print views_embed_view('Fichiers_doc_joints','page_1',$view_args);/*Liste des fichiers joints*/ ?>
         </div>
         <br clear="all"/>
