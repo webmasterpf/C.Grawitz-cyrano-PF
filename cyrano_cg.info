@@ -44,6 +44,7 @@ regions[formulaire] = Formulaire (centre) - Webform Bloc
 ;Region pour Diapo 3D
 regions[RegionDiapo3D] = Zone pour Diaporama 3D Flash
 
+
 settings[basic_zen_tabs]             = 1
 settings[basic_wireframe]            = 0
 settings[basic_block_editing]        = 1

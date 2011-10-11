@@ -1,14 +1,24 @@
-<!--______________NODE TPL POUR TdC PAGE LYCEE CUSTOM________________ -->
+<!--______________NODE TPL POUR TdC FICHE FORMATION CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
 <!--______________COLONNE GAUCHE 1________________ -->
   <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
-<div id="col_G1" class="pageLycee_content_col_G1">
+<div id="col_G1" class="ficheform_content_col_G1">
 
      <?php if ($title): /*insertion du titre de la page et style differencié si besoin*/?>
-     <h1 class="titre_pl"><?php print $title; ?></h1>
+     <h1 class="titre_ficheform"><?php print $title; ?></h1>
 
     <?php endif; ?>
+
+       <?php if ($node->field_fiche_programme[0]['view']): ?>
+        <div id="fichier-joint-plycee">
+            <h3>Documents utiles</h3>
+           <?php  print $node->field_fiche_programme[0]['view'];?>
+             <?php  print $node->field_lien_utile_ficheform[0]['view'];?>
+
+        </div>
+           <?php endif;?>
+
 
      <?php
               global $theme_path;
@@ -16,27 +26,27 @@
               ?>
      
       <br clear="all"/>
-       <!-- Deco page-->
-    <?php  print $node->field_image_deco_lycee[0]['view'] /*Image deco page lycee*/ ?>
+       <div class="taxo_ficheform"><?php print $my_taxo_ficheform; ?></div>
+
+       
 </div>
 <!--______________COLONNE GAUCHE 2________________ -->
-<div id="col_G2" class="pageLycee_content_col_G2">
+<div id="col_G2" class="ficheform_content_col_G2">
+    
      <?php if ($submitted): ?>
       <span class="submitted"><?php print $submitted; ?></span>
     <?php endif; ?>
-    <?php
-     /*insertion du contenu du corps de la page*/
-      print $node->content['body']['#value']
-      ?>
 
+      <!-- Deco page-->
+      <div id="deco-ficheform">
+    <?php  print $node->field_deco_ficheform[0]['view'] /*Image deco*/ ?>
+      </div>
+      
+      <div id="philo-ficheform">
+       <?php  print $node->field_philo_ficheform[0]['view'] /*Philo formation*/ ?>
+      </div>
 
-      <?php if ($node->field_video_lycee[0]['view']): ?>
-        <div id="video-plycee">
-            <?php  print $node->field_video_lycee[0]['view'];?>
-        </div>
-           <?php endif;?>
-
-      <?php
+       <?php
               global $theme_path;
               include ($theme_path.'/includes/inc_region_col_G2.php');
               ?>
@@ -44,28 +54,24 @@
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->
 
-<div id="col_G3" class="pageLycee_content_col_G3">
+<div id="col_G3" class="ficheform_content_col_G3">
      <?php print $picture; ?>
 
 
 
     <div class="content">
 
-
-        <?php if ($node->field_fichier_joint_lycee[0]['view']): ?>
-        <div id="fichier-joint-plycee">
-            <h3>Documents utiles</h3>
-           <?php  print $node->field_fichier_joint_lycee[0]['view'];?>
-             <?php  print $node->field_lien_page_lycee[0]['view'];?>
-
+        <div id="content-ficheform-gauche">
+ <?php
+     /*insertion du contenu du corps de la page*/
+      print $node->content['body']['#value']
+      ?>
         </div>
-           <?php endif;?>
-   
-        <br clear="all"/>
-          <?php
-              global $theme_path;
-              include ($theme_path.'/includes/inc_vue_grawitz_actus.php');
-              ?>
+
+        <div id="content-ficheform-droite">
+         <?php  print $node->field_ficheform_2[0]['view'] /*Image deco page lycee*/ ?>
+        </div>
+    
          <br clear="all"/>
         <?php
               global $theme_path;
@@ -82,7 +88,7 @@
     <?php endif; ?>
 
 </div>
-
+ <br clear="all"/>
 
   </div> <!-- /node-inner -->
 </div> <!-- /node-->

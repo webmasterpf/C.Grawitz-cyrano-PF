@@ -269,121 +269,223 @@ padding:10px 0;
 }
 /*********************************
 ----------------------------------
+---- BLOC GRAWITZ ACTUS ---------
+---------------------------------*/
+#bloc_grawitz_actus{
+  background-color: white;
+  background-image: url(../images/bg_grawitz_actus_ht.jpg),url(../images/bg_grawitz_actus_bas.jpg);
+  background-position: left 23px, left bottom;
+  background-repeat: no-repeat;
+   padding: 5px 0;
+}
+#bloc_grawitz_actus {
+    
+}
+#bloc_grawitz_actus tr{}
+#bloc_grawitz_actus td{}
+#bloc_grawitz_actus h3{
+    color: #95127C;
+    font-family: arista,Trebuchet MS,sans-serif;
+    padding: 5px;
+    text-align: center;
+     font-size: 20px;
+}
+#bloc_grawitz_actus{}
+
+.table_ga tbody{
+  width: 200px;
+  
+}
+.table_ga td{
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    display: block;
+    margin: 5px 0;
+    padding: 0 0 0 5px;
+    width: 200px;
+}
+.table_ga tr{
+    background: none repeat scroll 0 0 transparent;
+    border: 0;
+    
+}
+.table_ga a{
+    text-decoration: none;
+    color: #606070;
+}
+.table_ga a:hover{
+    background: #F29400;
+    color: white;
+}
+/*********************************
+----------------------------------
 ---- PAGE LYCEE NODE.TPL ---------
 ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
 h1.titre_pl{
     font-size: 24px;
-    color: #F29400;
+    color: #93117E;
     line-height: 1.0em
 }
 h1.titre_pl a{}
 h1.titre_pl a:hover{}
 /*######-------- COLONNE G1 --------######*/
-#pageLycee_col_G1 h2{}
-#pageLycee_col_G1 h3{}
-#pageLycee_col_G1 h4{}
-#pageLycee_col_G1 p{}
-#pageLycee_col_G1 ul{}
-#pageLycee_col_G1 img{
+.pageLycee_content_col_G1 h2{}
+.pageLycee_content_col_G1 h3{}
+.pageLycee_content_col_G1 h4{}
+.pageLycee_content_col_G1 p{}
+.pageLycee_content_col_G1 ul{}
+.pageLycee_content_col_G1 img{
      border: 5px solid #fff;
     -moz-box-shadow: #AAAAAA 0px 0px 5px ;
     -webkit-box-shadow: #AAAAAA 0px 0px 5px;
     box-shadow: #AAAAAA 0px 0px 5px;
 }
 
-#pageLycee_col_G1 a{}
-#pageLycee_col_G1 a:hover{}
+.pageLycee_content_col_G1 a{}
+.pageLycee_content_col_G1 a:hover{}
 
-#pageLycee_col_G1 h2 a{}
-#pageLycee_col_G1 h2 a:hover{}
-#pageLycee_col_G1 h3 a{}
-#pageLycee_col_G1 h3 a:hover{}
-#pageLycee_col_G1 h4 a{}
-#pageLycee_col_G1 h4 a:hover{}
+.pageLycee_content_col_G1 h2 a{}
+.pageLycee_content_col_G1 h2 a:hover{}
+.pageLycee_content_col_G1 h3 a{}
+.pageLycee_content_col_G1 h3 a:hover{}
+.pageLycee_content_col_G1 h4 a{}
+.pageLycee_content_col_G1 h4 a:hover{}
 /*######-------- COLONNE G2 --------######*/
-#pageLycee_col_G2 h2{
+.pageLycee_content_col_G2 h2{
     color: #ACC624;
     padding: 5px;
 }
-#pageLycee_col_G2 h3{
+.pageLycee_content_col_G2 h3{
     color: #911381;
     padding: 5px;
 }
-#pageLycee_col_G2 h4{
+.pageLycee_content_col_G2 h4{
     padding: 5px;
     color: #F29803;
 }
-#pageLycee_col_G2 p{
+.pageLycee_content_col_G2 p{
     padding: 5px;
 }
-#pageLycee_col_G2 ul{
+.pageLycee_content_col_G2 ul{
     padding: 5px;
 }
-#pageLycee_col_G2 img{
+.pageLycee_content_col_G2 img{
 
 }
 
-#pageLycee_col_G2 a{
+.pageLycee_content_col_G2 a{
     color: #F29400;
     text-decoration: none;
     padding: 2px;
 }
-#pageLycee_col_G2 a:hover{
+.pageLycee_content_col_G2 a:hover{
     color: white;
     background: #F29400;
 }
 
-#pageLycee_col_G2 h2 a{}
-#pageLycee_col_G2 h2 a:hover{}
-#pageLycee_col_G2 h3 a{}
-#pageLycee_col_G2 h3 a:hover{}
-#pageLycee_col_G2 h4 a{}
-#pageLycee_col_G2 h4 a:hover{}
+.pageLycee_content_col_G2 h2 a{}
+.pageLycee_content_col_G2 h2 a:hover{}
+.pageLycee_content_col_G2 h3 a{}
+.pageLycee_content_col_G2 h3 a:hover{}
+.pageLycee_content_col_G2 h4 a{}
+.pageLycee_content_col_G2 h4 a:hover{}
 
 /*######-------- COLONNE G3 --------######*/
-#pageLycee_col_G3 h2{}
-#pageLycee_col_G3 h3{}
-#pageLycee_col_G3 h4{}
-#pageLycee_col_G3 p{}
-#pageLycee_col_G3 ul{}
-#pageLycee_col_G3 img{
+.pageLycee_content_col_G3 h2{}
+.pageLycee_content_col_G3 h3{}
+.pageLycee_content_col_G3 h4{}
+.pageLycee_content_col_G3 p{}
+.pageLycee_content_col_G3 ul{}
+.pageLycee_content_col_G3 img{
 
 }
 
-#pageLycee_col_G3 a{}
-#pageLycee_col_G3 a:hover{}
+.pageLycee_content_col_G3 a{}
+.pageLycee_content_col_G3 a:hover{}
 
-#pageLycee_col_G3 h2 a{}
-#pageLycee_col_G3 h2 a:hover{}
-#pageLycee_col_G3 h3 a{}
-#pageLycee_col_G3 h3 a:hover{}
-#pageLycee_col_G3 h4 a{}
-#pageLycee_col_G3 h4 a:hover{}
+.pageLycee_content_col_G3 h2 a{}
+.pageLycee_content_col_G3 h2 a:hover{}
+.pageLycee_content_col_G3 h3 a{}
+.pageLycee_content_col_G3 h3 a:hover{}
+.pageLycee_content_col_G3 h4 a{}
+.pageLycee_content_col_G3 h4 a:hover{}
 
 /* Fichier joint dans page lycée*/
 #fichier-joint-plycee{
     display: block;
     margin: 0 auto;
     width: 215px;
-    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    background: transparent url(../images/bg_doc_utile_rp.gif) repeat ;
     -moz-border-radius: 5px;
     border-radius: 5px;
     padding: 10px 0;
 }
 #fichier-joint-plycee h3{
     font-family: arista,Trebuchet MS, sans-serif;
-    color: #911381;
+    color: #F29400;
     padding: 5px;
     text-align: center;
 
 }
 #fichier-joint-plycee a{
-    background: white;
-    color:#F29400;
+    color: #606070;
+    display: block;
+    font-weight: bold;
+    margin: 0 auto;
     padding: 2px;
+    width: 180px;
+    text-decoration: none;
 }
 #fichier-joint-plycee a:hover{
     background: #F29400;
     color: white;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 
 }
+#fichier-joint-plycee .filefield-icon {
+    display: none;
+}
+#video-plycee{
+    margin: 0 auto;
+    border: 1px solid #F49402;
+    padding: 5px;
+    width: 430px;
+}
+
+/*********************************
+----------------------------------
+---- FICHE FORMATION NODE.TPL ---------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+
+h1.titre_ficheform{}
+
+#taxo_ficheform{}
+#deco-ficheform img{
+    border: 2px solid #950F7E;
+    padding: 3px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#philo-ficheform{
+   font-family: 'Sorts Mill Goudy', serif;
+    font-size: 21px;
+    text-align: right;
+    color: #F29400;
+    font-style: italic;
+}
+
+.ficheform_content_col_G3 p{
+    padding: 5px;
+}
+.ficheform_content_col_G3 strong{
+    color: #F29400;
+}
+.ficheform_content_col_G3 a{
+    color: #F29400;
+}
+.ficheform_content_col_G3 a:hover{
+    text-decoration: none;
+}
+.ficheform_content_col_G3 h2{}
+.ficheform_content_col_G3 h3{}

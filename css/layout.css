@@ -231,6 +231,25 @@ h6 {
 	width:235px;
 	right:0px;
 }
+/*//////////§§§§§§§\\\\\\\\\\\\
+¤¤¤¤¤¤   TEMPLATE CUSTOM  ¤¤¤¤¤¤¤¤¤¤¤¤
+*/
+/*LAYOUT BASE NODE.TPL*/
+#col_G1{
+    float: left;
+    margin: 0;
+
+}
+#col_G2{
+    float: left;
+    margin: 0;
+
+}
+#col_G3{
+    float: right;
+    margin: 0;
+
+}
  /*\\\\\\\\\\\\\//////////////////
 ---------------------------------------------------
 LAYOUT POUR PAGE.TPL PAGE LYCEE
@@ -251,16 +270,14 @@ LAYOUT POUR PAGE.TPL PAGE LYCEE
 LAYOUT POUR NODE.TPL PAGE LYCEE
 ---------------------------------------------------*/
 
-#pageLycee_col_G1{
-    float: left;
+.pageLycee_content_col_G1{
     width: 195px;
     background: transparent;
     height: 100%;
     display: table-column;
 
 }
-#pageLycee_col_G2{
-    float: left;
+.pageLycee_content_col_G2{
     width: 555px;
     background: transparent;
     height: 100%;
@@ -268,11 +285,51 @@ LAYOUT POUR NODE.TPL PAGE LYCEE
      border-right: 1px solid #F29400;
      border-left: 1px solid #91127D;
 }
-#pageLycee_col_G3{
-    float: left;
+.pageLycee_content_col_G3{
     padding: 5px;
     width: 205px;
     background: transparent;
     height: 100%;
     display: table-cell;
+}
+ /*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE LYCEE
+---------------------------------------------------*/
+#content-inner-ficheform{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-ficheform {
+    width: auto;
+    padding: 5px;
+    float: left;
+
+}
+
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL FICHE FORMATION
+---------------------------------------------------*/
+.ficheform_content_col_G1{
+   width: 280px;
+   margin: 0;
+   padding: 0;
+}
+.ficheform_content_col_G2{
+    float: right;
+}
+.ficheform_content_col_G3{
+    clear: both;
+    width: 990px;
+}
+#content-ficheform-gauche{
+    float: left;
+    width: 450px;
+}
+#content-ficheform-droite{
+    float: right;
+    width: 450px;
+    border-left: 1px solid #970F7D;
 }
