@@ -11,22 +11,44 @@
     <?php endif; ?>
 
        <?php if ($node->field_fiche_programme[0]['view']): ?>
-        <div id="fichier-joint-plycee">
-            <h3>Documents utiles</h3>
-           <?php  print $node->field_fiche_programme[0]['view'];?>
-             <?php  print $node->field_lien_utile_ficheform[0]['view'];?>
+        <div id="docs-utiles-ficheform">
+            <h3>Infos utiles</h3>
+           <?php
+$rows = array();
+foreach($node->field_fiche_programme as $file) {
+  if ($file['view']) {
+      $rows[] = array($file['view']);
+    }
+}
+$output = theme_table(array(), $rows, array('class' => 'table-docs-utiles-ficheform'));
+print $output;
+?>
+            <?php
+$rows = array();
+foreach($node->field_lien_utile_ficheform as $file) {
+  if ($file['view']) {
+      $rows[] = array($file['view']);
+    }
+}
+$output = theme_table(array(), $rows, array('class' => 'table-docs-utiles-ficheform'));
+print $output;
+?>
 
         </div>
            <?php endif;?>
 
+  
 
+
+  <br clear="all"/>
+       <div class="taxo_ficheform">Dipl&ocirc;me :<?php print $my_taxo_ficheform; ?></div>
+       
      <?php
               global $theme_path;
               include ($theme_path.'/includes/inc_region_col_G1.php');
               ?>
      
-      <br clear="all"/>
-       <div class="taxo_ficheform"><?php print $my_taxo_ficheform; ?></div>
+    
 
        
 </div>
@@ -43,8 +65,9 @@
       </div>
       
       <div id="philo-ficheform">
+          <h2>
        <?php  print $node->field_philo_ficheform[0]['view'] /*Philo formation*/ ?>
-      </div>
+          </h2>    </div>
 
        <?php
               global $theme_path;

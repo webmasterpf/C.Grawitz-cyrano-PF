@@ -8,14 +8,24 @@ include ($theme_path.'/includes/inc_header.php');
       <div id="contentPage">
 
           <!-- ______________________ CONTENT TOP _______________________ -->
-      <?php if ($breadcrumb ||$content_top ): ?>
+      <?php if ($breadcrumb ||$content_top): ?>
             <div id="content-top">
 	<span id="ariane"> <?php print $breadcrumb; ?></span>
 
               <?php print $content_top; ?>
             </div> <!-- /#content-top -->
+            <?php endif; ?>
+  <!-- ______________________ CONTENT TOP NODE_______________________ -->
+               <?php if ($content_top_node): ?>
+            <div id="content-top-node">
+	              <?php print $content_top_node; ?>
+            </div> <!-- /#content-top-node -->
+            <?php endif; ?>
+  
 
 
+
+       <!-- ______________________ CONTENT CENTRAL GLOBAL _______________________ -->
 
 
         <div id="content-inner-page-lycee">
@@ -76,5 +86,4 @@ include ($theme_path.'/includes/inc_header.php');
 global $theme_path;
 include ($theme_path.'/includes/inc_footer.php');
 ?>
-         <?php endif; ?>
      

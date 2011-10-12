@@ -14,7 +14,16 @@ include ($theme_path.'/includes/inc_header.php');
 
               <?php print $content_top; ?>
             </div> <!-- /#content-top -->
-	  
+            <?php endif; ?>
+
+              <!-- ______________________ CONTENT TOP NODE_______________________ -->
+               <?php if ($content_top_node): ?>
+            <div id="content-top-node">
+	              <?php print $content_top_node; ?>
+            </div> <!-- /#content-top-node -->
+            <?php endif; ?>
+        
+
       
        <!-- ______________________ COLONNE GAUCHE _______________________ -->
 		
@@ -30,7 +39,8 @@ include ($theme_path.'/includes/inc_header.php');
              <!-- /sidebar-left -->
 		
 		<!--fin du contenu gauche -->
-        
+                
+         <!-- ______________________ CONTENT CENTRAL GLOBAL _______________________ -->
         <div id="content-inner" class="inner column center">
 		             
 		
@@ -98,5 +108,4 @@ include ($theme_path.'/includes/inc_header.php');
 global $theme_path;
 include ($theme_path.'/includes/inc_footer.php');
 ?>
-<?php endif; ?>
      

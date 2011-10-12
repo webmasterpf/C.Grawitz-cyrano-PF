@@ -269,6 +269,35 @@ padding:10px 0;
 }
 /*********************************
 ----------------------------------
+---- REGIONS VIA TEMPLATE.PHP ---------
+---------------------------------*/
+#region_col_G1{}
+#region_col_G2{}
+#region_col_G3{}
+
+
+#region_col_G1 .block-slinky_site{
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px 0;
+}
+/*********************************
+----------------------------------
+---- RESEAUX SOCIAUX Service links
+---------------------------------*/
+.service-links, #content-bottom-home .service-links{
+    text-align: center;
+}
+.service-links a{
+    margin: 0 5px;
+    color: #F29400;
+}
+.service-links a:hover{
+    text-decoration: none;
+}
+.service-links{}
+/*********************************
+----------------------------------
 ---- BLOC GRAWITZ ACTUS ---------
 ---------------------------------*/
 #bloc_grawitz_actus{
@@ -457,24 +486,75 @@ h1.titre_pl a:hover{}
 ----------------------------------
 ---- FICHE FORMATION NODE.TPL ---------
 ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+/*Col G1*/
+h1.titre_ficheform{
+    color: #F29400;
+}
 
-h1.titre_ficheform{}
+#docs-utiles-ficheform{
+    background: #F29400 url(../images/bg_docs_ficheform.gif) no-repeat left top ;
+    margin: 0 auto;
+    width: 200px;
+    padding: 20px 0;
+}
+#docs-utiles-ficheform h3{
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+#docs-utiles-ficheform a{
+    color: #606070;
+    display: list-item;
+    list-style-position: inside;
+    list-style-type: square;
+    text-decoration: none;
+    padding: 2px;
+    
+}
+#docs-utiles-ficheform a:hover{
+    background: #911381;
+    color: white;
+    padding: 2px 2px 5px;
+}
+#docs-utiles-ficheform .filefield-icon {
+    display: none;
+}
 
-#taxo_ficheform{}
+.table-docs-utiles-ficheform table{}
+.table-docs-utiles-ficheform tbody{}
+.table-docs-utiles-ficheform tr{
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+}
+.table-docs-utiles-ficheform td{
+    
+}
+.table-docs-utiles-ficheform{}
+.taxo_ficheform{
+    background: #ACC624;
+    color: #606070;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+}
+
+/*Col G2*/
 #deco-ficheform img{
     border: 2px solid #950F7E;
     padding: 3px;
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
-#philo-ficheform{
-   font-family: 'Sorts Mill Goudy', serif;
+#philo-ficheform h2{
+   font-family: 'Josefin Slab',Trebuchet MS;
     font-size: 21px;
     text-align: right;
     color: #F29400;
     font-style: italic;
+    font-weight: 400;
 }
-
+/*Col G3*/
 .ficheform_content_col_G3 p{
     padding: 5px;
 }

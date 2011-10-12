@@ -10,14 +10,15 @@
 
     <?php endif; ?>
 
-     <?php
-              global $theme_path;
-              include ($theme_path.'/includes/inc_region_col_G1.php');
-              ?>
-     
+        
       <br clear="all"/>
        <!-- Deco page-->
     <?php  print $node->field_image_deco_lycee[0]['view'] /*Image deco page lycee*/ ?>
+
+        <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_region_col_G1.php');
+              ?>
 </div>
 <!--______________COLONNE GAUCHE 2________________ -->
 <div id="col_G2" class="pageLycee_content_col_G2">

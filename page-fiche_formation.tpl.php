@@ -13,8 +13,15 @@ include ($theme_path.'/includes/inc_header.php');
 	<span id="ariane"> <?php print $breadcrumb; ?></span>
 
               <?php print $content_top; ?>
-            </div> <!-- /#content-top -->
-	  
+                    </div> <!-- /#content-top -->
+                    <?php endif; ?>
+
+         <!-- ______________________ CONTENT TOP NODE_______________________ -->
+               <?php if ($content_top_node): ?>
+            <div id="content-top-node">
+	              <?php print $content_top_node; ?>
+            </div> <!-- /#content-top-node -->
+            <?php endif; ?>
       
      
        <!-- ______________________ CONTENT CENTRAL GLOBAL _______________________ -->
@@ -69,10 +76,9 @@ include ($theme_path.'/includes/inc_header.php');
             </div><!-- /#content-bottom -->
           <?php endif; ?>
 	 </div> <!-- /contentPage -->
-	  
+	   <br clear="all"/>
 <?php
 global $theme_path;
 include ($theme_path.'/includes/inc_footer.php');
 ?>
-         <?php endif; ?>
      

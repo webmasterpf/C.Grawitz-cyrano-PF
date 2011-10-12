@@ -326,10 +326,11 @@ LAYOUT POUR NODE.TPL FICHE FORMATION
 }
 #content-ficheform-gauche{
     float: left;
-    width: 450px;
+    width: 490px;
+    border-right: 1px solid #970F7D;
 }
 #content-ficheform-droite{
     float: right;
-    width: 450px;
-    border-left: 1px solid #970F7D;
+    width: 490px;
+    
 }

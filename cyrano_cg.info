@@ -25,6 +25,7 @@ regions[DiapoHP] = Diaporama Homepage - Bloc
 regions[PartieGauche1] = Zone Droite 1 HP - Bloc
 regions[PartieGauche2] = Zone Droite 2 HP - Bloc
 regions[PartieGauche3] = Zone Droite 3 HP - Bloc
+regions[content_top_node] = Content top node (page template)
 regions[content_top] = Content top
 regions[formulaire] = Zone formulaire bloc
 regions[left] = Colonne Gauche
@@ -43,10 +44,13 @@ regions[intervenants] = Zone pour les Intervenants - Vue Bloc
 regions[formulaire] = Formulaire (centre) - Webform Bloc
 ;Region pour Diapo 3D
 regions[RegionDiapo3D] = Zone pour Diaporama 3D Flash
+;Region pour les node.tpl (ajouter dans template.php)
+regions[col_G1] = Bloc pour colonne G1
+regions[col_G2] = Bloc pour colonne G2
+regions[col_G3] = Bloc pour colonne G3
 
 
 settings[basic_zen_tabs]             = 1
 settings[basic_wireframe]            = 0
 settings[basic_block_editing]        = 1
 settings[basic_rebuild_registry]     = 1
-
