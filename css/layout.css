@@ -294,7 +294,7 @@ LAYOUT POUR NODE.TPL PAGE LYCEE
 }
  /*\\\\\\\\\\\\\//////////////////
 ---------------------------------------------------
-LAYOUT POUR PAGE.TPL PAGE LYCEE
+LAYOUT POUR PAGE.TPL FICHE FORMATION
 ---------------------------------------------------*/
 #content-inner-ficheform{
     width: auto;
@@ -333,4 +333,115 @@ LAYOUT POUR NODE.TPL FICHE FORMATION
     float: right;
     width: 490px;
     
+}
+
+ /*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL CONTENU VDL
+---------------------------------------------------*/
+#content-inner-contenu_sortie_action,#content-inner-contenu_projet,#content-inner-contenu_intervenant, #content-inner-contenu_innovation,#content-inner-contenu_ape{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-contenu_sortie_action,#middle-content-contenu_projet,#middle-content-contenu_intervenant, #middle-content-contenu_innovation,#middle-content-contenu_ape {
+    width: auto;
+    padding: 5px;
+    float: left;
+
+}
+
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL CONTENU VDL
+csa = contenu sortie action
+cp = contenu projet
+cint = contenu intervenant
+cinn = contenu innovation
+cape = contenu asso parent eleves
+---------------------------------------------------*/
+.csa_content_col_G1{
+   width: 215px;
+   margin: 0;
+   padding: 0;
+}
+.csa_content_col_G2{
+      padding: 5px;
+    width: 530px;
+    border-right: 1px solid #F29400;
+     border-left: 1px solid #91127D;
+}
+.csa_content_col_G3{
+    float: right;
+     padding: 5px;
+    width: 210px;
+}
+
+ /*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL CONTENU ENTREPRISE
+---------------------------------------------------*/
+#content-inner-contenu_entreprise{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-contenu_entreprise{
+    width: auto;
+    padding: 5px;
+    float: left;
+
+}
+
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL CONTENU ENTREPRISE
+---------------------------------------------------*/
+.entreprise_content_col_G1{
+   width: 215px;
+   margin: 0;
+   padding: 0;
+}
+.entreprise_content_col_G2{
+      padding: 5px;
+    width: 530px;
+    border-right: 1px solid #F29400;
+     border-left: 1px solid #91127D;
+}
+.entreprise_content_col_G3{
+    float: right;
+     padding: 5px;
+    width: 210px;
+}
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL  actualites CONTENU
+---------------------------------------------------*/
+#content-inner-actualites-contenu{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-actualites-contenu{
+    width: 990px;
+    padding: 5px;
+    float: left;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL  actualites CONTENU
+---------------------------------------------------*/
+.actualites_content_G1{
+    width: 100%;
+    padding: 10px;
+}
+.actualites_content_G2{
+    width: 440px;
+    padding: 2px;
+
+}
+.actualites_content_G3{
+    width: 500px;
+    border-left:  1px solid #9B9C9E;
+    padding: 2px;
 }

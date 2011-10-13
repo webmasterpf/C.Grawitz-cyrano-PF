@@ -10,38 +10,13 @@
 
     <?php endif; ?>
 
-       <?php if ($node->field_fiche_programme[0]['view']): ?>
-        <div id="docs-utiles-ficheform">
-            <h3>Infos utiles</h3>
-           <?php
-$rows = array();
-foreach($node->field_fiche_programme as $file) {
-  if ($file['view']) {
-      $rows[] = array($file['view']);
-    }
-}
-$output = theme_table(array(), $rows, array('class' => 'table-docs-utiles-ficheform'));
-print $output;
-?>
-            <?php
-$rows = array();
-foreach($node->field_lien_utile_ficheform as $file) {
-  if ($file['view']) {
-      $rows[] = array($file['view']);
-    }
-}
-$output = theme_table(array(), $rows, array('class' => 'table-docs-utiles-ficheform'));
-print $output;
-?>
-
-        </div>
-           <?php endif;?>
-
-  
-
-
+    <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_ficheform_infos_utiles.php');
+              ?>
+     
   <br clear="all"/>
-       <div class="taxo_ficheform">Dipl&ocirc;me :<?php print $my_taxo_ficheform; ?></div>
+       <div class="taxo_ficheform">Cat&eacute;gorie : <?php print $my_taxo_ficheform; ?></div>
        
      <?php
               global $theme_path;

@@ -298,21 +298,18 @@ padding:10px 0;
 .service-links{}
 /*********************************
 ----------------------------------
----- BLOC GRAWITZ ACTUS ---------
+---- BLOC GRAWITZ ACTUS et AUTRES EVENEMENTS---------
 ---------------------------------*/
-#bloc_grawitz_actus{
+#bloc_grawitz_actus, #bloc_autre_event{
   background-color: white;
   background-image: url(../images/bg_grawitz_actus_ht.jpg),url(../images/bg_grawitz_actus_bas.jpg);
   background-position: left 23px, left bottom;
   background-repeat: no-repeat;
    padding: 5px 0;
 }
-#bloc_grawitz_actus {
-    
-}
 #bloc_grawitz_actus tr{}
 #bloc_grawitz_actus td{}
-#bloc_grawitz_actus h3{
+#bloc_grawitz_actus h3, #bloc_autre_event h3{
     color: #95127C;
     font-family: arista,Trebuchet MS,sans-serif;
     padding: 5px;
@@ -321,11 +318,11 @@ padding:10px 0;
 }
 #bloc_grawitz_actus{}
 
-.table_ga tbody{
+.table_ga tbody,.table_ae tbody{
   width: 200px;
   
 }
-.table_ga td{
+.table_ga td,.table_ae td{
     background: none repeat scroll 0 0 transparent;
     border: 0 none;
     display: block;
@@ -333,16 +330,16 @@ padding:10px 0;
     padding: 0 0 0 5px;
     width: 200px;
 }
-.table_ga tr{
+.table_ga tr, .table_ae tr{
     background: none repeat scroll 0 0 transparent;
     border: 0;
     
 }
-.table_ga a{
+.table_ga a, .table_ae a{
     text-decoration: none;
     color: #606070;
 }
-.table_ga a:hover{
+.table_ga a:hover, .table_ae a:hover{
     background: #F29400;
     color: white;
 }
@@ -569,3 +566,129 @@ h1.titre_ficheform{
 }
 .ficheform_content_col_G3 h2{}
 .ficheform_content_col_G3 h3{}
+/*********************************
+----------------------------------
+---- CONTENU VDL NODE.TPL ---------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+/*Col G1*/
+#docs-utiles-vdl{
+    background: #F29400 url(../images/bg_docs_ficheform.gif) no-repeat left top ;
+    margin: 0 auto;
+    width: 200px;
+    padding: 20px 0;
+}
+#docs-utiles-vdl h3{
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+#docs-utiles-vdl a{
+    color: #606070;
+    display: list-item;
+    list-style-position: inside;
+    list-style-type: square;
+    text-decoration: none;
+    padding: 2px;
+    text-indent: 2px;
+
+}
+#docs-utiles-vdl a:hover{
+    background: #911381;
+    color: white;
+    text-indent: 5px;
+}
+#docs-utiles-vdl .filefield-icon {
+    display: none;
+}
+
+.table-docs-utiles-vdl table{}
+.table-docs-utiles-vdl tbody{}
+.table-docs-utiles-vdl tr{
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+}
+.table-docs-utiles-vdl td{
+
+}
+/*Col G2*/
+#illustration-vdl{
+    float: right;
+}
+#illustration-vdl img{
+    margin: 3px;
+    border: 5px solid #fff;
+    -moz-box-shadow: #AAAAAA 0px 0px 5px ;
+    -webkit-box-shadow: #AAAAAA 0px 0px 5px;
+    box-shadow: #AAAAAA 0px 0px 5px;
+}
+#video-vdl{
+    width: 425px;
+    margin: 0 auto;
+    padding: 2px;
+    border: 1px solid #970F7D;
+}
+#galerie-vdl{
+    padding: 5px 0;
+}
+#galerie-vdl h3{
+    text-align: center;
+    color: #970F7D;
+    font-size: 20px;
+    margin: 5px;
+}
+.view-Diapo-vie-du-lycee img{
+    border: 5px solid #fff;
+    -moz-box-shadow: #AAAAAA 0px 0px 2px ;
+    -webkit-box-shadow: #AAAAAA 0px 0px 2px;
+    box-shadow: #AAAAAA 0px 0px 2px;
+}
+/*********************************
+----------------------------------
+---- CONTENU ENTREPRISE NODE.TPL --
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+#cg_logo_entreprise img{
+    display: block;
+    margin: 0 auto;
+}
+
+/*----------------------------------------
+$$$$$$$ CONTENU ACTUALITES $$$$$$$$$$$$
+------------------------------------------*/
+h1.titre_actualites_content{
+    color: #F49402;
+    font-family: 'Arvo',Trebuchet MS,sans-serif;
+}
+h3.docs-actualites{
+    color: #ADC821;
+    text-align: center;
+}
+#bloc-docs-actualites{
+    width: 100%;
+    background: #EFEFEF;
+    padding: 10px;
+}
+#bloc-docs-actualites a{
+    text-decoration: none;
+    color: #02A7D5;
+    padding: 4px;
+}
+#bloc-docs-actualites a:hover{
+    background: #02A7D5;
+    color: white;
+}
+#bloc-docs-actualites{}
+#bloc-docs-actualites{}
+
+
+#bloc-video-actualites{}
+
+#bloc-audio-actualites{}
+
+#table-docs-actualites tbody{}
+#table-docs-actualites tr{}
+#table-docs-actualites td{
+    display: inline-block;
+    margin: 0 10px;
+}
+#table-docs-actualites a{}
+#table-docs-actualites a:hover{}
