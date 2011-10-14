@@ -286,7 +286,13 @@ padding:10px 0;
 ---- RESEAUX SOCIAUX Service links
 ---------------------------------*/
 .service-links, #content-bottom-home .service-links{
+    background: none repeat scroll 0 0 #EFEFEF;
+    -moz-border-radius: 5px 5px 5px 5px;
+    display: block;
+    margin: 0 auto;
+    padding: 2px;
     text-align: center;
+    width: 850px;
 }
 .service-links a{
     margin: 0 5px;
@@ -477,6 +483,67 @@ h1.titre_pl a:hover{}
     border: 1px solid #F49402;
     padding: 5px;
     width: 430px;
+}
+/*********************************
+----------------------------------
+---- PAGE POLE NODE.TPL --------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+
+h1.titre_pole_content{
+    text-align: center;
+      font-family: arista,Trebuchet MS,sans-serif;
+}
+
+.bloc_pole_formation_MSAC, .bloc_pole_formation_MRSP, .bloc_pole_formation_FC{
+    background:  url(../images/bg_pole.jpg) no-repeat left top ;
+    width: 315px;
+    margin: 0 auto;
+    padding: 30px 0 15px 0;
+}
+.bloc_pole_formation_MSAC h3,.bloc_pole_formation_MRSP h3,.bloc_pole_formation_FC h3 {
+     color: #606070;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 220px;
+     padding: 10px 0 0;
+       font-family: arista,Trebuchet MS,sans-serif;
+}
+.bloc_pole_formation_FC{}
+
+
+
+h3.diplome_formation{
+     color: #02A7D5;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 220px;
+    padding: 10px 0;
+}
+
+.table-liste-pole{
+    width: 250px;
+      margin: 0 auto;
+      display: block;
+}
+.table-liste-pole tbody{
+      
+}
+.table-liste-pole td{
+     text-align: center;
+   
+}
+
+.table-liste-pole a{
+    padding: 2px;
+    display: block;
+    color: #EFEFEF;
+    
+    text-decoration: none;
+}
+.table-liste-pole a:hover{
+    background: #93117D;
 }
 
 /*********************************

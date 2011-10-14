@@ -294,6 +294,46 @@ LAYOUT POUR NODE.TPL PAGE LYCEE
 }
  /*\\\\\\\\\\\\\//////////////////
 ---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE POLE
+---------------------------------------------------*/
+#content-inner-page-pole{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-page-pole {
+    width: auto;
+    padding: 5px;
+    float: left;
+
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE POLE
+---------------------------------------------------*/
+
+.pagePole_content_col_G1{
+    width: 325px;
+    background: transparent;
+    height: 100%;
+  
+
+}
+.pagePole_content_col_G2{
+    width: 325px;
+    background: transparent;
+    height: 100%;
+ 
+}
+.pagePole_content_col_G3{
+   width: 325px;
+    background: transparent;
+    height: 100%;
+
+}
+
+ /*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
 LAYOUT POUR PAGE.TPL FICHE FORMATION
 ---------------------------------------------------*/
 #content-inner-ficheform{
