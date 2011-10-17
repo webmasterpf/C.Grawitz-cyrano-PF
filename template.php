@@ -48,6 +48,18 @@ function cyrano_cg_preprocess_node(&$vars, $hook) {
       //Changer le nom de la variable si l'on ne se sert pas toujours du meme vid
     }
   }
+   //Pour afficher une seule taxonomie non cliquable - http://drupal.org/node/823918
+  $node = $vars['node'];
+  $vars['template_file'] = 'node-'. $node->nid;
+  $wanted_vid = '5';//Choisir ici le vid actualites,
+  foreach($node->taxonomy as $term) {
+    if ( $wanted_vid == $term->vid ) {
+      $vars['my_taxo_actualites'] .= $term->name;
+      // drupal_set_message('VID trouve : '.$term->vid.'Terme fiche formation :'.$my_taxo_ficheform,'status');
+      //You would need to format this the way you want it displayed, or pass it to a theme function
+      //Changer le nom de la variable si l'on ne se sert pas toujours du meme vid
+    }
+  }
 //Partie template node.tpl
 $node = $vars['node'];
 $lesTypes=array('fiche_formation', 'page_pole','contenu_actualites');
@@ -71,7 +83,7 @@ if ( in_array($node->type,$lesTypes) ) {
               $tplfile = 'node-'.$node->type.'-'. $term->vid.'-'.$term->tid ;
               $vars['template_files'][] = $tplfile ;
           //drupal_set_message('Term name : '.$term->name,'status');
-           drupal_set_message('Template file : '.$tplfile.'.tpl.php','status');
+           //drupal_set_message('Template file : '.$tplfile.'.tpl.php','status');
           }
 
 

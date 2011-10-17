@@ -5,6 +5,37 @@
 /*------------------------------------------------*
  *---  Provence Formation Janv. 2010 --*
  *------------------------------------------------*/
+/*------- EFFETS VISUELS GENERIQUES--------------*/
+.ombrage {
+    border: 5px solid #fff;
+    -moz-box-shadow: 8px 8px 12px #aaa;
+    -webkit-box-shadow: 8px 8px 12px #aaa;
+    box-shadow: 8px 8px 12px #555;
+    }
+.ombrage_bas {
+
+    -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+    }
+.table_tr_ombrage_bas{
+        -moz-box-shadow: 1px 2px 2px #aaa;
+        -webkit-box-shadow: 1px 2px 2px #aaa;
+        box-shadow: 1px 2px 2px #555;
+    }
+.ombrage_bloc {
+
+    -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+    }
+    .ombrage_bas_table_actu{
+         -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+}
+
+
 /*
 HOMEPAGE STYLE==================================
 */
@@ -54,7 +85,7 @@ a:hover#retour_haut{
     text-decoration: underline;
 }
 p{
-    padding: 2px 0;
+    padding: 2px;
     margin: 0;
 }
 
@@ -747,15 +778,230 @@ h3.docs-actualites{
 #bloc-docs-actualites{}
 
 
-#bloc-video-actualites{}
+#bloc-video-actualites{
+    border: 1px solid #F29400;
+    margin: 0 auto;
+    padding: 2px;
+    width: 425px;
+}
 
 #bloc-audio-actualites{}
 
 #table-docs-actualites tbody{}
-#table-docs-actualites tr{}
+#table-docs-actualites tr{
+     border: 0 none;
+}
 #table-docs-actualites td{
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 50px;
 }
 #table-docs-actualites a{}
 #table-docs-actualites a:hover{}
+
+/*********************************
+----------------------------------
+---- PAGE ACTUALITES NODE.TPL --
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+h1.titre_page_actualites{
+    margin: 3px;
+}
+
+#bloc_liste_actus .views-exposed-form{
+ width: 95%;
+ margin: 0 auto;
+}
+#bloc_liste_actus .date-views-filter-wrapper{
+    width: auto;
+    min-width: 20%;
+}
+#bloc_liste_actus span.views-field-name,#bloc_liste_actus span.views-field-created,#bloc_liste_actus span.views-field-field-date-evenement-value{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+
+}
+#bloc_liste_actus span.date-display-single{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+}
+.table_liste_actualites{
+    padding: 5px;
+}
+.table_liste_actualites tbody{}
+.table_liste_actualites tr{
+     margin: 5px 0;
+     border: 0;
+     background: none;
+}
+.table_liste_actualites td{
+     margin: 5px 0;
+    display: block;
+    padding: 3px;
+}
+.table_liste_actualites a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #F29400;
+}
+.table_liste_actualites a:hover{
+      color: #911381;
+}
+.table_liste_actualites{}
+
+.table_liste_actualites hr{
+    border-top: 1px solid #F29400;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/*Bloc liste RP colonne G3*/
+#bloc_liste_rp h3{
+   font-family: arista,Trebuchet MS, sans-serif;
+   text-align: center;
+   color: #00ACD1;
+   font-size: 1.5em;
+   margin: 5px 0;
+}
+
+.liste-revue-presse_defaut ul{
+    list-style: none;
+    width: 190px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.table_liste_rp{
+     background: transparent url(../images/bg_actu_revuepresse.jpg) no-repeat ;
+      margin: 0 auto;
+    width: 210px;
+}
+.table_liste_rp tbody{
+     background: none;
+    border: 0 none;
+}
+.table_liste_rp tr{
+       background: none;
+    border: 0 none;
+}
+.table_liste_rp td{
+     text-align: center;
+    padding: 5px;
+}
+.table_liste_rp a{
+        padding: 2px;
+    text-decoration: none;
+    color: #656571;
+    font-weight: bold;
+}
+.table_liste_rp a:hover{
+     background: #D0D1D2;
+}
+.table_liste_rp hr{
+    border-top: 1px solid #00ACD1;
+    width: 75%;
+    margin: 0 auto;
+}
+/*Bloc RSS*/
+#block-aggregator-feed-1{
+        background: #F29400 url(../images/bg_docs_ficheform.gif) no-repeat left top ;
+    margin: 0 auto;
+    width: 200px;
+    padding: 20px 0;
+}
+#block-aggregator-feed-1 h3{
+     text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+#block-aggregator-feed-1 a{
+      color: #606070;
+    display: list-item;
+    list-style-position: inside;
+    list-style-type: square;
+    text-decoration: none;
+    padding: 2px;
+    text-indent: 2px;
+}
+#block-aggregator-feed-1 a:hover{
+      background: #911381;
+    color: white;
+    text-indent: 5px;
+}
+#block-aggregator-feed-1 ul li{
+    margin: 0;
+    list-style: none;
+}
+#block-aggregator-feed-1 li{
+    list-style: none;
+}
+#block-aggregator-feed-1 .filefield-icon {
+    display: none;
+}
+/*********************************
+----------------------------------
+---- PAGE LYCEE-ENTREPRISE NODE.TPL --
+----------- LISTE --------------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+
+
+h1.titre_page_lycee_entreprise{
+    margin: 3px;
+}
+
+#bloc_liste_lycee-entreprise .views-exposed-form{
+ width: 95%;
+ margin: 0 auto;
+}
+#bloc_liste_lycee-entreprise .date-views-filter-wrapper{
+    width: auto;
+    min-width: 20%;
+}
+#bloc_liste_lycee-entreprise span.views-field-name,#bloc_liste_lycee-entreprise span.views-field-created,#bloc_liste_lycee-entreprise span.views-field-field-date-evenement-value{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+
+}
+#bloc_liste_lycee-entreprise span.date-display-single{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+}
+.table_liste_lycee_entreprise{
+    padding: 5px;
+}
+.table_liste_lycee_entreprise tbody{}
+.table_liste_lycee_entreprise tr{
+     margin: 5px 0;
+     border: 0;
+     background: none;
+}
+.table_liste_lycee_entreprise td{
+     margin: 5px 0;
+    display: block;
+    padding: 3px;
+}
+.table_liste_lycee_entreprise a{
+        text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #F29400;
+}
+.table_liste_lycee_entreprise a:hover{
+      color: #911381;
+}
+.table_liste_lycee_entreprise{}
+
+.table_liste_lycee_entreprise hr{
+    border-top: 1px solid #F29400;
+    width: 75%;
+    margin: 0 auto;
+}

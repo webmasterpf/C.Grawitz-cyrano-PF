@@ -400,18 +400,18 @@ cint = contenu intervenant
 cinn = contenu innovation
 cape = contenu asso parent eleves
 ---------------------------------------------------*/
-.csa_content_col_G1{
+.csa_content_col_G1,.cp_content_col_G1,.cint_content_col_G1,.cinn_content_col_G1,.cape_content_col_G1{
    width: 215px;
    margin: 0;
    padding: 0;
 }
-.csa_content_col_G2{
+.csa_content_col_G2,.cp_content_col_G2,.cint_content_col_G2,.cinn_content_col_G2,.cape_content_col_G2{
       padding: 5px;
     width: 530px;
     border-right: 1px solid #F29400;
      border-left: 1px solid #91127D;
 }
-.csa_content_col_G3{
+.csa_content_col_G3,.cp_content_col_G3,.cint_content_col_G3,.cinn_content_col_G3,.cape_content_col_G3{
     float: right;
      padding: 5px;
     width: 210px;
@@ -484,4 +484,84 @@ LAYOUT POUR NODE.TPL  actualites CONTENU
     width: 500px;
     border-left:  1px solid #9B9C9E;
     padding: 2px;
+}
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL  actualites 
+---------------------------------------------------*/
+#content-inner-page-actualites{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-page-actualites{
+    width: 990px;
+    padding: 5px;
+    float: left;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL  actualites 
+---------------------------------------------------*/
+.page_actualites_content_col_G1{
+    width: 215px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+}
+.page_actualites_content_col_G2{
+   width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #F29400;
+     border-left: 1px solid #91127D;
+
+}
+.page_actualites_content_col_G3{
+   padding: 5px;
+    width: 205px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+}
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL  page_lycee_entreprise
+---------------------------------------------------*/
+#content-inner-page-lycee-entreprise{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-page-lycee-entreprise{
+    width: 990px;
+    padding: 5px;
+    float: left;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL  page_lycee_entreprise
+---------------------------------------------------*/
+.page_lycee_entreprise_content_col_G1{
+    width: 215px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+}
+.page_lycee_entreprise_content_col_G2{
+   width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #F29400;
+     border-left: 1px solid #91127D;
+
+}
+.page_lycee_entreprise_content_col_G3{
+   padding: 5px;
+    width: 205px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
 }

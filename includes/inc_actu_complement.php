@@ -13,10 +13,9 @@
 
            <tr class="line1">
                 <td>  Date : <?php  print $node->field_date_evenement[0]['view']  ?></td>
+                <td>   Cat&eacute;gorie : <?php print $my_taxo_actualites; ?></td>
                 <td>  Type de m&eacute;dia : <?php  print $node->field_type_media[0]['view']  ?></td>
-               <td>
-
-
+                               <td>
             <?php
 $rows = array();
 foreach($node->field_fichier_joint_rp as $file) {
