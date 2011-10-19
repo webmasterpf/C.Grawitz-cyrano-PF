@@ -565,3 +565,44 @@ LAYOUT POUR NODE.TPL  page_lycee_entreprise
     height: 100%;
     display: table-cell;
 }
+
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL  page_vdl  LISTE
+---------------------------------------------------*/
+#content-inner-page-vdl{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-page-vdl{
+    width: 990px;
+    padding: 5px;
+    float: left;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL  page_vdl  LISTE
+---------------------------------------------------*/
+.page_vdl_content_col_G1{
+    width: 215px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+}
+.page_vdl_content_col_G2{
+   width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #F29400;
+     border-left: 1px solid #91127D;
+
+}
+.page_vdl_content_col_G3{
+   padding: 5px;
+    width: 205px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+}

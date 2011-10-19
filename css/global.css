@@ -1005,3 +1005,67 @@ h1.titre_page_lycee_entreprise{
     width: 75%;
     margin: 0 auto;
 }
+
+/*********************************
+----------------------------------
+---- PAGE VDL NODE.TPL --
+----------- LISTE --------------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+
+
+h1.titre_page_vdl{
+    margin: 3px;
+}
+
+#bloc_liste_vdl .views-exposed-form{
+ width: 95%;
+ margin: 0 auto;
+}
+#bloc_liste_vdl .date-views-filter-wrapper{
+    width: auto;
+    min-width: 20%;
+}
+#bloc_liste_vdl span.views-field-name,#bloc_liste_vdl span.views-field-created,#bloc_liste_vdl span.views-field-field-date-evenement-value{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+
+}
+#bloc_liste_vdl span.date-display-single{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+}
+.table_liste_vdl{
+    padding: 5px;
+}
+.table_liste_vdl tbody{}
+.table_liste_vdl tr{
+     margin: 5px 0;
+     border: 0;
+     background: none;
+}
+.table_liste_vdl td{
+     margin: 5px 0;
+    display: block;
+    padding: 3px;
+}
+.table_liste_vdl a{
+        text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #F29400;
+}
+.table_liste_vdl a:hover{
+      color: #911381;
+}
+.table_liste_vdl{}
+
+.table_liste_vdl hr{
+    border-top: 1px solid #F29400;
+    width: 75%;
+    margin: 0 auto;
+}
