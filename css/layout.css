@@ -252,6 +252,36 @@ h6 {
 }
  /*\\\\\\\\\\\\\//////////////////
 ---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE ERREUR
+---------------------------------------------------*/
+ #left-content-pageErreur{
+     float: left;
+     width: 200px;
+     padding: 3px;
+     margin: 0;
+}
+#content-inner-pageErreur{
+    width: 550px;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-pageErreur  {
+    width: auto;
+    padding: 5px;
+    float: left;
+    background: #EFEFEF;
+    margin: 10px 0;
+
+}
+#right-content-pageErreur{
+    float: right;
+    width: 200px;
+     padding: 3px;
+     margin: 0;
+}
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
 LAYOUT POUR PAGE.TPL PAGE LYCEE
 ---------------------------------------------------*/
 #content-inner-page-lycee{

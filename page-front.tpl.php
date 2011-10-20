@@ -4,8 +4,8 @@ include ($theme_path.'/includes/inc_header.php');
 ?>
 <!-- ______________________ LAYOUT HOMEPAGE C.GRAWITZ_______________________ -->
  <!-- ______________________ CONTENU _______________________ -->
-
-	<div id="mainPage">
+<?php //<div id="mainPage"> ?>
+	<div id="contentPage">
 
 
           <?php if ($content_top): ?>

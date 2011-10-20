@@ -222,8 +222,11 @@ text-decoration: none;
 */
 #Diapo3D{
     margin: 0 auto;
+    
+     
 }
 #Diapo3DReg{
     width: 880px;
     margin: 0 auto;
+    display: block;
 }

@@ -93,7 +93,8 @@
 <!-- ______________________ LAYOUT HOMEPAGE C.GRAWITZ AVEC DIAPO 3D_______________________ -->
  <!-- ______________________ CONTENU _______________________ -->
 
-	<div id="mainPage">
+	<?php //<div id="mainPage"> ?>
+	<div id="contentPage">
 
 
           <?php if ($content_top): ?>
@@ -133,4 +134,7 @@
 
 
 	 </div> <!-- /mainPage -->
-     <?php include "inc_footer.php";?>
+    <?php
+global $theme_path;
+include ($theme_path.'/includes/inc_footer.php');
+?>
