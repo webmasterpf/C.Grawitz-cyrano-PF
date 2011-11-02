@@ -318,15 +318,16 @@ padding:10px 0;
 ---------------------------------*/
 .service-links, #content-bottom-home .service-links{
     background: none repeat scroll 0 0 #EFEFEF;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
     display: block;
     margin: 0 auto;
     padding: 2px;
     text-align: center;
     width: 850px;
-   behavior: url(/sites/all/libraries/PIE/PIE.php);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
 }
 .service-links a{
     margin: 0 5px;
@@ -531,8 +532,11 @@ h1.titre_pl a:hover{}
     width: 215px;
     background: transparent url(../images/bg_doc_utile_rp.gif) repeat ;
     -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius: 5px;
     padding: 10px 0;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+    position: relative;
 }
 #fichier-joint-plycee h3{
     font-family: arista,Trebuchet MS, sans-serif;
@@ -554,7 +558,9 @@ h1.titre_pl a:hover{}
     background: #F29400;
     color: white;
     -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius: 5px;
+    
 
 }
 #fichier-joint-plycee .filefield-icon {
@@ -647,6 +653,7 @@ h1.titre_ficheform{
     text-align: center;
     color: white;
     margin: 10px 0;
+
 }
 #docs-utiles-ficheform a{
     color: #606070;
@@ -691,6 +698,9 @@ h1.titre_ficheform{
     padding: 3px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    -webkit-border-radius: 5px;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+    position: relative;
 }
 #philo-ficheform h2{
    font-family: 'Josefin Slab',Trebuchet MS;
@@ -713,8 +723,12 @@ h1.titre_ficheform{
 .ficheform_content_col_G3 a:hover{
     text-decoration: none;
 }
-.ficheform_content_col_G3 h2{}
-.ficheform_content_col_G3 h3{}
+.ficheform_content_col_G3 h2{
+    color: #E7512F;
+}
+.ficheform_content_col_G3 h3{
+    color: #01AAD1;
+}
 /*********************************
 ----------------------------------
 ---- CONTENU VDL NODE.TPL ---------
