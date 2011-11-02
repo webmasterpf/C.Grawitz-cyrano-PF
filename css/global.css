@@ -318,12 +318,15 @@ padding:10px 0;
 ---------------------------------*/
 .service-links, #content-bottom-home .service-links{
     background: none repeat scroll 0 0 #EFEFEF;
-    -moz-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     display: block;
     margin: 0 auto;
     padding: 2px;
     text-align: center;
     width: 850px;
+   behavior: url(/sites/all/libraries/PIE/PIE.php);
 }
 .service-links a{
     margin: 0 5px;
@@ -333,6 +336,54 @@ padding:10px 0;
     text-decoration: none;
 }
 .service-links{}
+
+/*********************************
+----------------------------------
+---- NEWSLETTER BLOC.TPL ---------
+---------------------------------*/
+#bloc-newsletter{
+     margin: 0 auto;
+    width: 290px;
+}
+#bloc-newsletter p{
+    /*float: left;*/
+    width: auto;
+}
+#bloc-newsletter form{
+    float: left;
+    margin: 0;
+}
+
+
+#bloc-newsletter .form-item label {
+    float: left;
+    margin: 0 5px;
+}
+#bloc-newsletter .form-submit input{
+     float: right;
+}
+#bloc-newsletter{}
+
+#bloc-newsletter .simplenews-subscription-filter .form-item {
+  clear: both;
+  line-height: 1.75em;
+  margin: 0pt 1em 0pt 0pt;
+}
+
+#bloc-newsletter .simplenews-subscription-filter .form-item label {
+  float: left;
+  width: 12em;
+}
+
+#bloc-newsletter .simplenews-subscription-filter .spacer {
+  margin-left: 12em;
+}
+
+#bloc-newsletter .simplenews-subscription-filter .form-select,
+#bloc-newsletter .simplenews-subscription-filter .form-text {
+  width: 14em;
+}
+
 /*********************************
 ----------------------------------
 ---- BLOC GRAWITZ ACTUS et AUTRES EVENEMENTS---------
