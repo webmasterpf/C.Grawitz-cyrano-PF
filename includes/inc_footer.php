@@ -5,7 +5,12 @@
           <?php print $footer_block; ?> 
         </div> <!-- /footer -->
       <?php endif; ?>
-        <div id="bloc_stats"><?php include "/js/code_stats.php";?></div>
+        <div id="bloc_stats">
+      <?php
+global $theme_path;
+include ($theme_path.'/js/code_stats.php');
+?>
+
     </div> <!-- /general OR /page -->
 	<?php print $closure ?>
   </body>

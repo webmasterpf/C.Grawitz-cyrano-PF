@@ -5,7 +5,10 @@
  */
 
 ?>
-  <?php if ($node->field_fiche_programme[0]['view']): ?>
+  <?php if ($node->field_fiche_programme[0]['view']
+          OR
+          $node->field_lien_utile_ficheform[0]['view']
+          ): ?>
         <div id="docs-utiles-ficheform">
             <h3>Infos utiles</h3>
            <?php

@@ -627,7 +627,7 @@ h3.diplome_formation{
     padding: 2px;
     display: block;
     color: #EFEFEF;
-    
+    font-size: 14px;
     text-decoration: none;
 }
 .table-liste-pole a:hover{
