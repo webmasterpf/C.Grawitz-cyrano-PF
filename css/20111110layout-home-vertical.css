@@ -137,50 +137,52 @@ text-transform: uppercase;
 	
 }
 /********************/
-/*ZONES PAGE ACCUEIL DIAPO PANORAMIQUE*/
+/*ZONES PAGE ACCUEIL*/
 #content-bottom-home a{
     color: gray;
     font-weight: bold;
 }
 #HPDiapo{
-width: auto;
+width: 50%;
 height: auto;
 padding:10px 0 0;
-
-}
-/****************/
-#BasGaucheHP{
-        width:54%;
-        float:left;
-	background:none;
-	color:black;
+  float:right;
 
 }
 
-#BasDroitHP{
-	width:46% !important;
-        width: 43%;
-	float:right;
-	background:none;
-}
-#BasGaucheHP ul li{
-    list-style: square;
-}
-#BasGaucheHP a,#BasDroitHP a{
-text-decoration:none;
-}
-#BasGaucheHP a:hover,#BasDroitHP a:hover{
-text-decoration:underline;
+#HPGauche{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+
+    float: left;
 }
 
-/*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE  PANORAMIQUE----*/
+#HPGauche1{
+    text-align: center;
+}
+
+#HPGauche2{
+    background: url("../images/titre_actus_hp.gif") no-repeat top left;
+    margin: 0;
+    padding: 35px 2px 0;
+}
+
+#HPGauche3{
+    background: url("../images/titre_foyer_hp.gif") no-repeat top left;
+    margin: 0;
+    padding: 35px 2px 0;
+
+}
+/*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE----*/
 #transparency{
-background:none repeat scroll 0 0 #F29400;/*Couleur du fond*/
-height:65px;
-bottom:10px;
-left:12px;
+background:none repeat scroll 0 0 #1F1F1F;
+
+height:115px;
+bottom:12px;
+left:11px;
 position:absolute;
-width:968px;
+width:450px;
 z-index:15;
 opacity:0.6;
 -moz-opacity : 0.6;
@@ -195,7 +197,7 @@ color: white;
 z-index:20;
 }
 #contenu-diapo h2{
-color: white;
+color: orange;
 padding:5px;
 font-family: Arista,Trebuchet MS,sans serif;
 
@@ -205,10 +207,7 @@ color: white;
 text-decoration: none;
 }
 .view-diaporama-homepage{
-height:200px;
-margin:0 auto;
-position:inherit;
-width:978px;
+    position: inherit;
 }
 #views_slideshow_singleframe_main_diaporama_homepage-block_1{
     padding: 0;
