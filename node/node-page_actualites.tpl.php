@@ -53,7 +53,7 @@
       <div id="col_G3" class="page_actualites_content_col_G3">
            <?php
               global $theme_path;
-              include ($theme_path.'/includes/inc_actu_liste_rp.php');
+             include ($theme_path.'/includes/inc_actu_liste_rp.php');
               ?>
 
 

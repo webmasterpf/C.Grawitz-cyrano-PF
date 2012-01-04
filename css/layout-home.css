@@ -162,6 +162,7 @@ padding:10px 0 0;
         width: 43%;
 	float:right;
 	background:none;
+        margin: 10px 0;
 }
 #BasGaucheHP ul li{
     list-style: square;
@@ -172,7 +173,9 @@ text-decoration:none;
 #BasGaucheHP a:hover,#BasDroitHP a:hover{
 text-decoration:underline;
 }
-
+#BasDroitHP h3{
+    text-align: center;
+}
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE  PANORAMIQUE----*/
 #transparency{
 background:none repeat scroll 0 0 #F29400;/*Couleur du fond*/
@@ -182,10 +185,10 @@ left:12px;
 position:absolute;
 width:968px;
 z-index:15;
-opacity:0.6;
--moz-opacity : 0.6;
--ms-filter: "alpha(opacity=60)"; /* IE 8 */
-filter : alpha(opacity=60); /* IE < 8 */
+opacity:0.0;/*0.6*/
+-moz-opacity : 0.0;
+-ms-filter: "alpha(opacity=00)"; /* IE 8 */
+filter : alpha(opacity=00); /* IE < 8 */
 }
 #contenu-diapo{
 position:absolute;

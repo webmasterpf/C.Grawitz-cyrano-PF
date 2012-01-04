@@ -342,7 +342,33 @@ padding:10px 0;
     text-decoration: none;
 }
 .service-links{}
-
+/* Bloc Follow sur Homepage  avec module Follow*/
+#block-follow-site h3{
+    font-family: arista,Trebuchet MS,sans-serif;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #94117E;
+}
+#block-follow-site a{
+    color:#F29400;
+    text-decoration: none;
+}
+#block-follow-site a:hover{
+    text-decoration: underline;
+}
+#block-follow-site{
+    background: #ECECED;
+    border: 1px solid #606070;
+    padding: 5px;
+    margin: 0 auto;
+    width: 350px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   behavior: url(/sites/all/libraries/PIE/PIE.htc);
+}
+#block-follow-site{}
 /*********************************
 ----------------------------------
 ---- NEWSLETTER BLOC.TPL ---------
@@ -436,6 +462,49 @@ padding:10px 0;
 .table_ga a:hover, .table_ae a:hover{
     background: #F29400;
     color: white;
+}
+/*********************************
+---- HOMEPAGE ACTUS -----------
+*********************************/
+#table-actus-hp{
+    width: 440px;
+    margin: 0 auto;
+    border: 0;
+}
+#table-actus-hp thead th{
+    border-bottom: 3px solid #F29400;
+}
+#table-actus-hp tbody{}
+#table-actus-hp tr{
+    margin: 3px;
+
+
+}
+#table-actus-hp td{
+    background: white;
+    border: 0;
+    margin: 2px 0;
+    padding: 5px;
+    display: block;
+    border-bottom: 1px solid #950F7E;
+}
+#table-actus-hp td:hover{
+    background: #F29400;
+}
+#table-actus-hp p{}
+#table-actus-hp a{
+    color: #950F7E;
+    text-decoration: none;
+    font-weight: bold;
+}
+#table-actus-hp a:hover{
+    text-decoration: underline;
+    color: white;
+}
+#table-actus-hp span.date-display-single{
+    text-align: right;
+    float: right;
+    font-style: italic;
 }
 /*********************************
 ----------------------------------
@@ -937,7 +1006,10 @@ h1.titre_page_actualites{
    font-size: 1.5em;
    margin: 5px 0;
 }
-
+#bloc_liste_rp p{
+    text-align: center;
+    padding: 5px;
+}
 .liste-revue-presse_defaut ul{
     list-style: none;
     width: 190px;

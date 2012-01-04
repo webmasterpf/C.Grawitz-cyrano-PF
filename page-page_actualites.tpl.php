@@ -8,7 +8,7 @@ include ($theme_path.'/includes/inc_header.php');
       <div id="contentPage">
 
           <!-- ______________________ CONTENT TOP _______________________ -->
-      <?php if ($breadcrumb ||$content_top): ?>
+      <?php if ($breadcrumb || $content_top): ?>
             <div id="content-top">
 	<span id="ariane"> <?php print $breadcrumb; ?></span>
 

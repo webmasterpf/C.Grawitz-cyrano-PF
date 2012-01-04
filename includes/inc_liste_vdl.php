@@ -10,8 +10,8 @@
       
     <?php
 
-$viewname = 'Liste_vdl';
-$view = views_get_view ($viewname);
+$viewname_vdl1 = 'Liste_vdl';
+$view = views_get_view ($viewname_vdl1);
 $view->set_display('block_1');
 
 

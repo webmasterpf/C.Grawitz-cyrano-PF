@@ -53,7 +53,7 @@
       <div id="col_G3" class="page_vdl_content_col_G3">
          
 
-           <?php
+           <?php 
               global $theme_path;
               include ($theme_path.'/includes/inc_vue_grawitz_actus.php');
               ?>

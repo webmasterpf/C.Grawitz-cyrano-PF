@@ -95,3 +95,4 @@ include ($theme_path.'/includes/inc_header.php');
 global $theme_path;
 include ($theme_path.'/includes/inc_footer.php');
 ?>
+ <?php endif; ?>
