@@ -806,7 +806,27 @@ h1.titre_ficheform{
 /*********************************
 ----------------------------------
 ---- CONTENU VDL NODE.TPL ---------
-¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+csa = contenu sortie action
+cp = contenu projet
+cint = contenu intervenant
+cinn = contenu innovation
+cape = contenu asso parent eleves
+*/
+.csa_content_col_G1,.cp_content_col_G1,.cint_content_col_G1,.cinn_content_col_G1,.cape_content_col_G1{}
+.csa_content_col_G2,.cp_content_col_G2,.cint_content_col_G2,.cinn_content_col_G2,.cape_content_col_G2{}
+.csa_content_col_G3,.cp_content_col_G3,.cint_content_col_G3,.cinn_content_col_G3,.cape_content_col_G3{}
+
+.csa_content_col_G2 a,.cp_content_col_G2 a,.cint_content_col_G2 a,.cinn_content_col_G2 a,.cape_content_col_G2 a{
+    color: #F29400;
+    text-decoration: none;
+    padding: 2px;
+}
+.csa_content_col_G2 a:hover,.cp_content_col_G2 a:hover,.cint_content_col_G2 a:hover,.cinn_content_col_G2 a:hover,.cape_content_col_G2 a:hover{
+    color: white;
+    background: #F29400;
+}
+
 /*Col G1*/
 #docs-utiles-vdl{
     background: #F29400 url(../images/bg_docs_ficheform.gif) no-repeat left top ;
@@ -1193,6 +1213,8 @@ h1.titre_page_vdl{
      margin: 5px 0;
     display: block;
     padding: 3px;
+    float: left;
+    width: 95%;
 }
 .table_liste_vdl a{
         text-decoration: none;
@@ -1210,4 +1232,8 @@ h1.titre_page_vdl{
     border-top: 1px solid #F29400;
     width: 75%;
     margin: 0 auto;
+}
+.deco_vdl img{
+    float: right;
+    border: 1px solid #F29400;
 }
