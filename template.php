@@ -51,7 +51,7 @@ function cyrano_cg_preprocess_node(&$vars, $hook) {
    //Pour afficher une seule taxonomie non cliquable - http://drupal.org/node/823918
   $node = $vars['node'];
   $vars['template_file'] = 'node-'. $node->nid;
-  $wanted_vid = '5';//Choisir ici le vid actualites,
+  $wanted_vid = '6';//Choisir ici le vid actualites 5 en DEV 6 en PROD,
   foreach($node->taxonomy as $term) {
     if ( $wanted_vid == $term->vid ) {
       $vars['my_taxo_actualites'] .= $term->name;

@@ -14,7 +14,7 @@ $viewdisplay = $view->set_display('block_4');
 //$args_ldj1 = $view->set_arguments(array($node->nid));
 
 //$emptyTextVue = $view->display('block_4')->display_options['empty'];
-$emptyText = $view->display_handler->set_option('empty','<div class="table_liste_rp"><p>Pas de Revue de Prese pour le moment.</p></div>');
+$emptyText = $view->display_handler->set_option('empty','<div class="table_liste_rp"><p>Pas de Revue de Presse pour le moment.</p></div>');
 
 //Exécution de le vue
 $view->pre_execute();

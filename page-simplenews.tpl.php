@@ -2,31 +2,39 @@
 global $theme_path;
 include ($theme_path.'/includes/inc_header.php');
 ?>
-<!-- LAYOUT PAGE CONTENU ACTUALITES ITEM OVERRIDE PAR NODE.TPL CUSTOM -->
-<!-- ______________________ CONTENU _______________________ -->
-  
+ <!-- ______________________ LAYOUT PAGE SIMPLENEWS OVERRIDE PAR NODE.TPL CUSTOM _______________________ -->
+  <!-- ______________________ CONTENU _______________________ -->
+
       <div id="contentPage">
-      
-            
-        <div id="content-inner-actualites-contenu" class="inner column center">
-		
-			<?php if ($breadcrumb ||$content_top ): ?>
+
+          <!-- ______________________ CONTENT TOP _______________________ -->
+      <?php if ($breadcrumb ||$content_top): ?>
             <div id="content-top">
-			 <?php print $breadcrumb; ?>
-			
+	<span id="ariane"> <?php print $breadcrumb; ?></span>
+
               <?php print $content_top; ?>
             </div> <!-- /#content-top -->
             <?php endif; ?>
-
-             <!-- ______________________ CONTENT TOP NODE_______________________ -->
+  <!-- ______________________ CONTENT TOP NODE_______________________ -->
                <?php if ($content_top_node): ?>
             <div id="content-top-node">
 	              <?php print $content_top_node; ?>
             </div> <!-- /#content-top-node -->
             <?php endif; ?>
-            
+  
+
+
+
+       <!-- ______________________ CONTENT CENTRAL GLOBAL _______________________ -->
+
+
+        <div id="content-inner-simplenews">
+
+
+
+
           <?php if ($mission || $messages || $help || $tabs): ?>
-            <div id="content-header">              
+            <div id="content-header">
 
               <?php if ($mission): ?>
                 <div id="mission"><?php print $mission; ?></div>
@@ -34,7 +42,7 @@ include ($theme_path.'/includes/inc_header.php');
 
               <?php print $messages; ?>
 
-              <?php print $help; ?> 
+              <?php print $help; ?>
 
               <?php if ($tabs): ?>
                 <div class="tabs"><?php print $tabs; ?></div>
@@ -43,20 +51,18 @@ include ($theme_path.'/includes/inc_header.php');
             </div> <!-- /#content-header -->
           <?php endif; ?>
 		  <!-- ______________________ CONTENU CENTRAL _______________________ -->
-                  <div id="middle-actualites-contenu">
+          <div id="middle-content-simplenews">
+
             <?php print $content; ?>
               <?php print $feed_icons; ?>
           </div> <!-- /#content-area -->
 
-        
 
-          <?php if ($content_bottom): ?>
-            <div id="content-bottom">
-              <?php print $content_bottom; ?>
-            </div><!-- /#content-bottom -->
-          <?php endif; ?>
-          
+
+
+
       </div> <!-- /content-inner /content -->
+
 
         <?php if (!empty($primary_links) or !empty($secondary_links)): ?>
           <div id="navigation" class="menu <?php if (!empty($primary_links)) { print "with-main-menu"; } if (!empty($secondary_links)) { print " with-sub-menu"; } ?>">
@@ -65,15 +71,19 @@ include ($theme_path.'/includes/inc_header.php');
           </div> <!-- /navigation -->
         <?php endif; ?>
 
-       
-		
 
-   
-    	  <br clear="all" />
+
+
+    	 <br clear="all"/>
+         <!-- ______________________ CONTENU BAS _______________________ -->
+<?php if ($content_bottom): ?>
+            <div id="content-bottom">
+              <?php print $content_bottom; ?>
+            </div><!-- /#content-bottom -->
+          <?php endif; ?>
 	 </div> <!-- /contentPage -->
-	  
-	<?php
+<?php
 global $theme_path;
 include ($theme_path.'/includes/inc_footer.php');
-?> 
+?>
      

@@ -173,7 +173,7 @@ text-decoration:none;
 #BasGaucheHP a:hover,#BasDroitHP a:hover{
 text-decoration:underline;
 }
-#BasDroitHP h3{
+#BasDroitHP h3,#BasGaucheHP h3{
     text-align: center;
 }
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE  PANORAMIQUE----*/
@@ -191,11 +191,12 @@ opacity:0.0;/*0.6*/
 filter : alpha(opacity=00); /* IE < 8 */
 }
 #contenu-diapo{
-position:absolute;
+position:relative;
 bottom: 10%;
 left: 10px;
 color: white;
 z-index:20;
+top: -40px;
 }
 #contenu-diapo h2{
 color: white;

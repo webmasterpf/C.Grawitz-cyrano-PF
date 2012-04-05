@@ -382,7 +382,7 @@ padding:10px 0;
     width: auto;
 }
 #bloc-newsletter form{
-    float: left;
+    
     margin: 0;
 }
 
@@ -415,7 +415,134 @@ padding:10px 0;
 #bloc-newsletter .simplenews-subscription-filter .form-text {
   width: 14em;
 }
+/* BLOC NL MULTI SOUSCRIPTION
+------------------------------*/
+.block-simplenews{
+    background: #F29400;
+    margin: 0 auto;
+    width: 250px;
+    padding: 5px;
+     border: 5px solid #fff;
+    -moz-box-shadow: #AAAAAA 0px 0px 5px ;
+    -webkit-box-shadow: #AAAAAA 0px 0px 5px;
+    box-shadow: #AAAAAA 0px 0px 5px;
+}
+.block-simplenews h3{
+    color: #4e4d5e;
+}
+#bloc-newsletter-multi{
+     margin: 0 auto;
+    width: inherit;
+}
+#bloc-newsletter-multi p{
+    /*float: left;*/
+    width: auto;
+}
+#bloc-newsletter-multi form{
+     margin: 0;
+}
+#bloc-newsletter-multi .form-item label {
+    margin: 0 5px;
+}
+#bloc-newsletter-multi .form-submit input{
+     float: right;
+}
+#bloc-newsletter-multi{}
 
+#bloc-newsletter-multi .simplenews-subscription-filter .form-item {
+  clear: both;
+  line-height: 1.75em;
+  margin: 0pt 1em 0pt 0pt;
+}
+
+#bloc-newsletter-multi .simplenews-subscription-filter .form-item label {
+  float: left;
+  width: 12em;
+}
+
+#bloc-newsletter-multi .simplenews-subscription-filter .spacer {
+  margin-left: 12em;
+}
+
+#bloc-newsletter-multi .simplenews-subscription-filter .form-select,
+#bloc-newsletter-multi .simplenews-subscription-filter .form-text {
+  width: 14em;
+}
+/*********************************
+----------------------------------
+---- SIMPLENEWS MAIL CONFIRMATION ---------
+---------------------------------*/
+.mail-confirmation{
+    width: 550px;
+}
+.mail-confirmation a{
+    color: #E7512F;
+    text-decoration: none;
+}
+.mail-confirmation a:hover{
+    background: #E7512F;
+    color: #EFEFEF;
+}
+.mail-confirmation strong{
+    color: #00ACD1;
+}
+/*********************************
+----------------------------------
+---- NEWSLETTER NODE.TPL ---------
+---------------------------------*/
+#illustration-newsletter{
+    float: right;
+}
+.nl-actus{
+    margin: 0 auto;
+    width: 220px;
+}
+/*********************************
+----------------------------------
+---- NEWSLETTER SIMPLENEWS .TPL ---------
+---------------------------------*/
+#table-nl table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+#table-nl h2{
+    text-align: center;
+    color: #E7512F;
+}
+#table-nl tbody{
+    display: block;
+    width: auto;
+}
+#table-nl tr{
+    width: auto;
+}
+#table-nl td{
+    width: auto;
+    
+}
+.colonne-1-nl{
+    width: 200px;
+    display: block;
+}
+.colonne-2-nl{
+    width: 300px;
+    display: block;
+}
+.colonne-3-nl{
+    width: 150px;
+    display: block;
+}
+#table-nl a{}
+#table-nl a:hover{}
+#table-nl strong{}
+#txt-footer{
+    color: #911381;
+}
+#txt-footer a{
+    color: #E7512F;
+}
+#txt-footer a:hover{}
 /*********************************
 ----------------------------------
 ---- BLOC GRAWITZ ACTUS et AUTRES EVENEMENTS---------
@@ -466,21 +593,21 @@ padding:10px 0;
 /*********************************
 ---- HOMEPAGE ACTUS -----------
 *********************************/
-#table-actus-hp{
+#table-actus-hp,#table-actus-hp2{
     width: 440px;
     margin: 0 auto;
     border: 0;
 }
-#table-actus-hp thead th{
+#table-actus-hp thead th,#table-actus-hp2 thead th{
     border-bottom: 3px solid #F29400;
 }
-#table-actus-hp tbody{}
-#table-actus-hp tr{
+#table-actus-hp tbody,#table-actus-hp2 tbody{}
+#table-actus-hp tr,#table-actus-hp2 tr{
     margin: 3px;
 
 
 }
-#table-actus-hp td{
+#table-actus-hp td,#table-actus-hp2 td{
     background: white;
     border: 0;
     margin: 2px 0;
@@ -488,20 +615,20 @@ padding:10px 0;
     display: block;
     border-bottom: 1px solid #950F7E;
 }
-#table-actus-hp td:hover{
+#table-actus-hp td:hover,#table-actus-hp2 td:hover{
     background: #F29400;
 }
 #table-actus-hp p{}
-#table-actus-hp a{
+#table-actus-hp a,#table-actus-hp2 a{
     color: #950F7E;
     text-decoration: none;
     font-weight: bold;
 }
-#table-actus-hp a:hover{
+#table-actus-hp a:hover,#table-actus-hp2 a:hover{
     text-decoration: underline;
     color: white;
 }
-#table-actus-hp span.date-display-single{
+#table-actus-hp span.date-display-single,#table-actus-hp2 span.date-display-single{
     text-align: right;
     float: right;
     font-style: italic;

@@ -254,6 +254,16 @@ h6 {
     margin: 0;
 
 }
+/* LAYOUT MISE EN PAGE COLONNES */
+/* Colonne 1 = G1*/
+.col1_layout_320_660{
+    width: 320px;
+}
+/* Colonne 2 = G2*/
+.col2_layout_320_660{
+    width: 660px;
+}
+/* Colonne 3 = G3*/
  /*\\\\\\\\\\\\\//////////////////
 ---------------------------------------------------
 LAYOUT POUR PAGE.TPL PAGE ERREUR

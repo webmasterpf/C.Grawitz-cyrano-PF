@@ -16,7 +16,7 @@
  * MODELE pour la vue sur HP
  */
 ?>
-<table id="table-actus-hp2" class="<?php print $class; ?>"<?php print $attributes; ?>>
+<table id="table-actus-hp" class="<?php print $class; ?>"<?php print $attributes; ?>>
   <?php if (!empty($title)) : ?>
     <caption><?php print $title; ?></caption>
   <?php endif; ?>
