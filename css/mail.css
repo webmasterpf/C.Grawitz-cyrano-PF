@@ -1,6 +1,5 @@
 /* 
 CSS pour les mails en HTML via Mimemail
 */
-.mail-simplenews-unsubscribe a{
-    color: #EA5132;
-}
+@import url("http://lycee-charlotte-grawitz.com/sites/all/themes/Cyrano_CG/css/global.css");
+@import url("http://lycee-charlotte-grawitz.com/sites/all/themes/Cyrano_CG/css/layout.css");

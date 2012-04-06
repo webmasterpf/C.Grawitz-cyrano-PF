@@ -2,7 +2,7 @@
 global $theme_path;
 include ($theme_path.'/includes/inc_header.php');
 ?>
-<!-- ______________________ LAYOUT HOMEPAGE C.GRAWITZ_______________________ -->
+<!-- ______________________ LAYOUT HOMEPAGE PANORAMIQUE C.GRAWITZ_______________________ -->
  <!-- ______________________ CONTENU _______________________ -->
 <?php //<div id="mainPage"> ?>
 	<div id="contentPage">
@@ -14,7 +14,10 @@ include ($theme_path.'/includes/inc_header.php');
             </div> <!-- /#content-top -->
           <?php endif; ?>
 
-          
+<?php
+global $theme_path;
+include ($theme_path.'/includes/inc_drupalMMHT.php');
+?>          
 
    <!-- ______________________ ZONE DIAPO PANORAMIQUE _______________________ -->
 

@@ -40,7 +40,7 @@
 <?php else: ?>
 -- <?php print $unsubscribe_text ?>: [simplenews-unsubscribe-url]
 <?php endif ?>
-
+<a href="<?php print $front_page; ?>/node/<?php print $node->nid ?>" target="_blank">Voir la newsletter sur le site</a>
 <?php if ($key == 'test'): ?>
 - - - <?php print $test_message ?> - - -
 <?php endif ?>
