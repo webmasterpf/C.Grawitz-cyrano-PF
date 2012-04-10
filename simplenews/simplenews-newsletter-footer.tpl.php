@@ -28,20 +28,20 @@
  */
 ?>
 <!-- TEMPLATE CUSTOM NEWSLETTER FOOTER -->
-
+<table align="center">
 <div id="txt-footer">
     <?php print $site_slogan; ?>
-    Lyc&eacute;e Priv&eacute; Professionnel Charlotte Grawitz - 13013 MARSEILLE
+    Lyc&eacute;e Priv&eacute; Professionnel Charlotte Grawitz - 13013 MARSEILLE<br/>
     <a href="<?php print $front_page; ?>" title="Accueil du site" rel="home" id="logo">
-            Aller sur le site</a>
-
+            Aller sur le site</a> - <a href="<?php print $front_page; ?>/node/<?php print $node->nid ?>" target="_blank">Voir la newsletter sur le site</a><br/>
     <?php if ($format == 'html'): ?>
   <p class="newsletter-footer"><a href="[simplenews-unsubscribe-url]"><?php print $unsubscribe_text ?></a></p>
 <?php else: ?>
 -- <?php print $unsubscribe_text ?>: [simplenews-unsubscribe-url]
 <?php endif ?>
-<a href="<?php print $front_page; ?>/node/<?php print $node->nid ?>" target="_blank">Voir la newsletter sur le site</a>
+
 <?php if ($key == 'test'): ?>
 - - - <?php print $test_message ?> - - -
 <?php endif ?>
 </div>
+    </table>

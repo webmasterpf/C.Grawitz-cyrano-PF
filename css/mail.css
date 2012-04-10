@@ -1,5 +1,66 @@
 /* 
 CSS pour les mails en HTML via Mimemail
 */
-@import url("http://lycee-charlotte-grawitz.com/sites/all/themes/Cyrano_CG/css/global.css");
-@import url("http://lycee-charlotte-grawitz.com/sites/all/themes/Cyrano_CG/css/layout.css");
+
+#mimemail-body a{color: #E7512F;}
+#mimemail-body a:hover{text-decoration: none;}
+#mimemail-body p{padding: 2px;}
+#mimemail-body strong{color: #E7512F;}
+#mimemail-body ul{list-style: none;}
+#mimemail-body li{}
+#mimemail-body li a{color: #4e4d5e;text-decoration: none;}
+#mimemail-body li a:hover{background: #F29400;color: white;}
+
+/*********************************
+----------------------------------
+---- NEWSLETTER SIMPLENEWS .TPL ---
+------- Pour Client Web -------
+---------------------------------*/
+#table-nl-bordure{border: 2px solid #FF6600;padding: 5px;}
+#table-nl table{ border-collapse: collapse;
+    border-spacing: 0;}
+#table-nl h2{
+    text-align: center;
+    color: #E7512F;
+    margin: 5px;
+}
+#table-nl tbody{
+    display: block;
+    width: auto;
+    
+}
+#table-nl tr{
+    width: auto;
+}
+#table-nl td{
+    width: auto;
+    
+}
+.colonne-1-nl{
+   
+}
+.colonne-2-nl{
+  
+}
+.colonne-3-nl{
+   
+}
+.colonne-3-nl img{
+    /*Pas besoin*/
+}
+#table-nl a{}
+#table-nl a:hover{}
+#table-nl strong{}
+#bloc_grawitz_actus{}
+#bloc_grawitz_actus table{
+    border:none;
+}
+#bloc_grawitz_actus{}
+#bloc_grawitz_actus{}
+#txt-footer{
+    color: #911381;
+}
+#txt-footer a{
+    color: #E7512F;
+}
+#txt-footer a:hover{}
