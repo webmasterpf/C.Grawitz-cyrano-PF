@@ -46,7 +46,6 @@ tr.table-tr-content{border-bottom-color: #d6d6d6; border-bottom-width: 1px; bord
 #bloc_grawitz_actus{}
 #bloc_grawitz_actus{}
 #custom-list-01{border:#6633CC 1px solid;margin:2px;padding:1px;}
-#custom-list-01 h3{text-align:center;}
 #txt-footer{color: #911381;}
 #txt-footer a{color: #E7512F;}
 #txt-footer a:hover{}
@@ -68,10 +67,10 @@ tr.table-tr-content{border-bottom-color: #d6d6d6; border-bottom-width: 1px; bord
             Aller sur le site</a> - <a href="<?php print $front_page; ?>/node/<?php print $node->nid ?>" target="_blank" style="color: #E7512F;">Voir la newsletter sur le site</a></td></tr>
     <tr border="0">
        
-      <td width="210"><h2 style="text-align: center;color: #E7512F; margin: 5px;"><?php print $title; ?></h2></td>
-<td width="216" height="100"><div align="center"><a href="<?php print $front_page; ?>" title="Accueil du site" rel="home" id="logo">
+      <td><h2 style="text-align: center;color: #E7512F; margin: 5px;"><?php print $title; ?></h2></td>
+<td height="100"><div align="center"><a href="<?php print $front_page; ?>" title="Accueil du site" rel="home" id="logo">
       <img src="http://www.lycee-charlotte-grawitz.com/sites/all/themes/Cyrano_CG/images/newsletter/logo-nl.png" alt="Logo LPP C.Grawitz" width="216" height="55"/></a> </div></td>
-<td width="215">   <h3 style="text-align:right;color:#911381;font-size:12px;font-family:Trebuchet-MS,Arial, sans-serif">
+<td>   <h3 style="text-align:right;color:#911381;font-size:12px;font-family:Trebuchet-MS,Arial, sans-serif">
                   <?php  print $node->field_nl_edition[0]['view']  ?>  </h3></td></tr>
        <tr border="0" style="border-bottom-color: #d6d6d6; border-bottom-width: 1px; border-bottom-style: solid;" class="table-tr-content">
 <td style="bordercolor:#FF3399; vertical-align:top" class="colonne-1-nl">
@@ -79,19 +78,18 @@ tr.table-tr-content{border-bottom-color: #d6d6d6; border-bottom-width: 1px; bord
            <!-- table colonne Gauche-->
           <table width="210" align="center"><tr><td> <div id="bloc_grawitz_actus" style="background:url(http://www.lycee-charlotte-grawitz.com/sites/all/themes/Cyrano_CG/images/newsletter/bg-actus-nl.png);margin:5px;color: #911381;display:block;">
     <?php  print $node->field_nl_lastnews[0]['view']  ?></div> <!-- liste actus -->   </td></tr></table>  
-    
+          </td>
+    <td bgcolor="#ebebeb"class="colonne-2-nl" style="vertical-align:top;"><!-- Corps -->
+            <?php   print $node->content['body']['#value'];/*contenu du node newsletter*/ ?> </td>
+     <td style="vertical-align:top;vspace:2px;hspace:2px;" class="colonne-3-nl">
     <!-- table colonne Droite-->
-     <table width="210" align="center" id="col-3">
+     <table width="190" align="center" id="col-3">
      <tr><td height="170"> <span id="illustration-nl" style="border:1px solid #F29400;display:block;padding:2px;background:#FFCC66;"><?php  print $node->field_nl_illustration[0]['view']?> </span> </td>
      </tr><!-- illustration -->
      <tr><td height="48">
      <span id="custom-list-01" style="border:#6633CC 1px solid;margin:2px;display:block;padding:2px;background:#DDBBFF;"><?php  print $node->field_nl_listeperso_01[0]['view']?> </span></td>
      </tr><!-- liste custom -->
-     </table> 
-          </td>
-    <td  colspan="2" class="colonne-2-nl" style="background:#ebebeb;vertical-align:top;padding:4px; border:2px solid #999999"><!-- Corps -->
-            <?php   print $node->content['body']['#value'];/*contenu du node newsletter*/ ?> </td>
-     </tr>
+     </table>       </td></tr>
 <!-- TEMPLATE CUSTOM NEWSLETTER FOOTER -->
 
 <tr border="0"style="text-align:center">
