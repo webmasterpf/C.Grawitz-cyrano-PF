@@ -1,5 +1,5 @@
 <?php
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_cg');
 include ($theme_path.'/includes/inc_header.php');
 ?>
  <!-- ______________________ LAYOUT PAGE ERREUR _______________________ -->
@@ -90,6 +90,6 @@ include ($theme_path.'/includes/inc_header.php');
 		  
 	 </div> <!-- /contentPage -->
 <?php
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_cg');
 include ($theme_path.'/includes/inc_footer.php');
 ?>

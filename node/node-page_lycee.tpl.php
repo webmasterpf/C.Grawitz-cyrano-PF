@@ -16,7 +16,7 @@
     <?php  print $node->field_image_deco_lycee[0]['view'] /*Image deco page lycee*/ ?>
 
         <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_cg');
               include ($theme_path.'/includes/inc_region_col_G1.php');
               ?>
 </div>
@@ -38,7 +38,7 @@
            <?php endif;?>
 
       <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_cg');
               include ($theme_path.'/includes/inc_region_col_G2.php');
               ?>
 
@@ -64,12 +64,12 @@
    
         <br clear="all"/>
           <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_cg');
               include ($theme_path.'/includes/inc_vue_grawitz_actus.php');
               ?>
          <br clear="all"/>
         <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_cg');
               include ($theme_path.'/includes/inc_region_col_G3.php');
               ?>
     </div>

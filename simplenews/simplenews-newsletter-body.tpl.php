@@ -59,9 +59,15 @@ tr.table-tr-content{border-bottom-color: #d6d6d6; border-bottom-width: 1px; bord
 <table align="center" background="http://www.lycee-charlotte-grawitz.com/sites/all/themes/Cyrano_CG/images/bg_content_etoile.gif" id="table-nl-bordure" style="border:#FF6600 2px solid;margin:0 auto;width:703px;" >
   <tbody><tr><td>
 <table width="700" border="0" align="center" cellpadding="0" cellspacing="0" id="table-nl">
-   <thead><tr><td colspan="3" height="150">
-     <div align="center"><img src="http://www.lycee-charlotte-grawitz.com/sites/all/themes/Cyrano_CG/images/newsletter/header-newsletter.jpg" alt="El&egrave;ves devant le Lyc&eacute;e" width="693" height="142"/>
-        </div></td>
+   <thead>
+   <tr border="0" style="text-align:center">
+<td colspan="3"  style="color: #911381"> 
+  <p>
+  <?php if ($format == 'html'): ?><a href="[simplenews-unsubscribe-url]"><?php print $unsubscribe_text ?></a>
+  <?php else: ?>-- <?php print $unsubscribe_text ?>: [simplenews-unsubscribe-url]<?php endif ?> 
+</p></td></tr>
+   <tr><td colspan="3" height="150">
+     <div align="center"><img src="http://www.lycee-charlotte-grawitz.com/sites/all/themes/Cyrano_CG/images/newsletter/header-newsletter.jpg" alt="El&egrave;ves devant le Lyc&eacute;e" width="693" height="142"/>        </div></td>
    </tr></thead>   
 <tbody>
 <tr><td colspan="3" style="text-align:center"> <a href="<?php print $front_page; ?>" title="Accueil du site" rel="home" id="logo" style="color: #E7512F;">
@@ -82,31 +88,30 @@ tr.table-tr-content{border-bottom-color: #d6d6d6; border-bottom-width: 1px; bord
     
     <!-- table colonne Droite-->
      <table width="210" align="center" id="col-3">
-     <tr><td height="170"> <span id="illustration-nl" style="border:1px solid #F29400;display:block;padding:2px;background:#FFCC66;"><?php  print $node->field_nl_illustration[0]['view']?> </span> </td>
+     <tr><td height="170"> <span id="illustration-nl" style="border:1px solid #F29400;display:block;padding:2px;background:#FFCC66;"><?php  print $node->field_nl_deco[0]['view']?> </span> </td>
      </tr><!-- illustration -->
+     <tr><td height="48">
+     <span id="custom-list-01" style="border:#6633CC 1px solid;margin:2px;display:block;padding:2px;background:#DDBBFF;"><?php  print $node->field_nl_revuepresse[0]['view']?> </span></td>
+     </tr><!-- liste RP -->
      <tr><td height="48">
      <span id="custom-list-01" style="border:#6633CC 1px solid;margin:2px;display:block;padding:2px;background:#DDBBFF;"><?php  print $node->field_nl_listeperso_01[0]['view']?> </span></td>
      </tr><!-- liste custom -->
-     </table> 
-          </td>
+     </table>          </td>
     <td  colspan="2" class="colonne-2-nl" style="background:#ebebeb;vertical-align:top;padding:4px; border:2px solid #999999"><!-- Corps -->
             <?php   print $node->content['body']['#value'];/*contenu du node newsletter*/ ?> </td>
      </tr>
 <!-- TEMPLATE CUSTOM NEWSLETTER FOOTER -->
 
 <tr border="0"style="text-align:center">
-<td colspan="3"><a href="http://twitter.com/#!/LPPCGrawitz" target="_blank" style="color: #E7512F;">Twitter Officiel</a> - <a href="fr-fr.facebook.com/pages/Lyc&eacute;e-Charlotte-Grawitz/114627971979570" target="_blank" style="color: #E7512F;">Page Facebook du Lyc&eacute;e</a></td>
+<td colspan="3"><a href="http://twitter.com/#!/LPPCGrawitz" target="_blank">Twitter Officiel</a> - <a href="https://www.facebook.com/Lycee.Charlotte.Grawitz" target="_blank">Page Facebook du Lyc&eacute;e</a></td>
 </tr>
 <tr border="0"style="text-align:center">
 <td colspan="3"><div id="txt-footer" style="color: #911381;">
     <p>Lyc&eacute;e Priv&eacute; Professionnel Charlotte Grawitz - 13013 MARSEILLE</p></div></td></tr>
-<tr border="0" style="text-align:center">
-<td colspan="3"  style="color: #911381"> 
-  <p class="newsletter-footer"><?php if ($format == 'html'): ?><a href="[simplenews-unsubscribe-url]"><?php print $unsubscribe_text ?></a><?php else: ?>-- <?php print $unsubscribe_text ?>: [simplenews-unsubscribe-url]<?php endif ?>
-  <?php if ($key == 'test'): ?>- <?php print $test_message ?>  -<?php endif ?></p></td></tr>
 <tr border="0"><td colspan="3"  style="color: #911381" height="55">
 <div align="right"><img src="http://www.lycee-charlotte-grawitz.com/sites/all/themes/Cyrano_CG/images/bg_footer.jpg"/></div>
-</td></tr><!-- /table Footer NL-->
+</td></tr>
+<tr><td colspan="3" style="text-align:center"><?php if ($key == 'test'): ?>- <?php print $test_message ?>  -<?php endif ?></td></tr><!-- /table Footer NL-->
 </tbody></table>
 <!-- /table NL -->
 </td></tr></tbody></table><!-- /table bordure -->

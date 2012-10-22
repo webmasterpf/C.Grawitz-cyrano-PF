@@ -30,7 +30,7 @@
         <div id="col_G1" class="pagePole_content_col_G1">
        
              <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_cg');
               include ($theme_path.'/includes/inc_pole_liste_MSAC.php');
               ?>
         </div>
@@ -39,7 +39,7 @@
          <div id="col_G2" class="pagePole_content_col_G2">
 
           <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_cg');
               include ($theme_path.'/includes/inc_pole_liste_MRSP.php');
               ?>
 
@@ -50,7 +50,7 @@
         <!--______________COLONNE 3________________ -->
          <div id="col_G3" class="pagePole_content_col_G3">
            <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_cg');
               include ($theme_path.'/includes/inc_pole_liste_FC.php');
               ?>
         </div>

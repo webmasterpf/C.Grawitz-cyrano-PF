@@ -236,3 +236,16 @@ width:978px;
     margin: 0 auto;
     display: block;
 }
+/*
+HOMEPAGE SLIDESHOW DERNIERES VDL =======================
+*/
+#views_slideshow_singleframe_main_HP_slideshow-block_1 .views-field-title a{
+    color:#93117E;font-size: 14px;text-decoration: none;
+}
+#views_slideshow_singleframe_main_HP_slideshow-block_1 .views-field-title a:hover{
+    text-decoration: underline;
+}
+#views_slideshow_singleframe_main_HP_slideshow-block_1 img{
+    padding: 2px;
+    border: 3px solid #F29400;
+}

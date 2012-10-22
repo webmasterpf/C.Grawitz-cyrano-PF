@@ -11,7 +11,7 @@
     <?php endif; ?>
 
     <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_cg');
               include ($theme_path.'/includes/inc_ficheform_infos_utiles.php');
               ?>
      
@@ -19,7 +19,7 @@
        <div class="taxo_ficheform">Cat&eacute;gorie : <?php print $my_taxo_ficheform; ?></div>
        
      <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_cg');
               include ($theme_path.'/includes/inc_region_col_G1.php');
               ?>
      
@@ -45,7 +45,7 @@
           </h2>    </div>
 
        <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_cg');
               include ($theme_path.'/includes/inc_region_col_G2.php');
               ?>
 
@@ -72,7 +72,7 @@
     
          <br clear="all"/>
         <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_cg');
               include ($theme_path.'/includes/inc_region_col_G3.php');
               ?>
     </div>

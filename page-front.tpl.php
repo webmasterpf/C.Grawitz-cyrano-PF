@@ -1,5 +1,5 @@
 <?php
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_cg');
 include ($theme_path.'/includes/inc_header.php');
 ?>
 <!-- ______________________ LAYOUT HOMEPAGE PANORAMIQUE C.GRAWITZ_______________________ -->
@@ -15,7 +15,7 @@ include ($theme_path.'/includes/inc_header.php');
           <?php endif; ?>
 
 <?php
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_cg');
 include ($theme_path.'/includes/inc_drupalMMHT.php');
 ?>          
 
@@ -59,7 +59,7 @@ include ($theme_path.'/includes/inc_drupalMMHT.php');
 
 	 </div> <!-- /mainPage -->
 <?php
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_cg');
 include ($theme_path.'/includes/inc_footer.php');
 ?>
       
