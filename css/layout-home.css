@@ -57,18 +57,17 @@ float:left;
 padding:4px;
 }
 
-#navPicto a {
-	border:0;
-	}
-#navPicto a :hover{}
+#navPicto a {border:0;font-family: arista,Trebuchet MS, sans-serif;
+    text-align: center;color:#94127F;font-size: 23px;text-decoration: none;}
+#navPicto a:hover{color: #F29400;}
 /************PARTIE BASSE**************/
 #headBas{
 	width:990px;
-	height:108px;
+	height:130px;/*Nice menu:108px - Superfish:130px*/
 	float:none;
 	display:block;
 	margin:5px 0 0 0;
-	background:#CFD0D2 url(../images/bg_menu_rp.gif) repeat-x top left;
+	background:transparent url(../images/bg_menu_rp.gif) repeat-x top left;
 	
 }
 /*Menu principal haut du header*/
@@ -237,7 +236,7 @@ width:978px;
     display: block;
 }
 /*
-HOMEPAGE SLIDESHOW DERNIERES VDL =======================
+HOMEPAGE SLIDESHOW DERNIERES VDL (Views2)=======================
 */
 #views_slideshow_singleframe_main_HP_slideshow-block_1 .views-field-title a{
     color:#93117E;font-size: 14px;text-decoration: none;
@@ -246,6 +245,19 @@ HOMEPAGE SLIDESHOW DERNIERES VDL =======================
     text-decoration: underline;
 }
 #views_slideshow_singleframe_main_HP_slideshow-block_1 img{
+    padding: 2px;
+    border: 3px solid #F29400;
+}
+/*
+HOMEPAGE SLIDESHOW DERNIERES VDL (Views3) =======================
+*/
+#views_slideshow_cycle_main_HP_slideshow-block_1 .views-field-title a{
+    color:#93117E;font-size: 14px;text-decoration: none;
+}
+#views_slideshow_cycle_main_HP_slideshow-block_1 .views-field-title a:hover{
+    text-decoration: underline;
+}
+#views_slideshow_cycle_main_HP_slideshow-block_1 img{
     padding: 2px;
     border: 3px solid #F29400;
 }

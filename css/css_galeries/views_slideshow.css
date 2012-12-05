@@ -77,3 +77,38 @@ VIEWS SLIDESHOW SLIDER ===================================
 .views_slideshow_slider_pause{}
 .views_slideshow_slider_next{background:url('../css_galeries/images/button_nav.png') 18px 0;}
 .views_slideshow_slider_next a:hover{background:url('../css_galeries/images/button_nav.png') 18px 18px;}
+
+/*
+== VIEWS 3 PAGER ====
+*/
+.views-slideshow-controls-bottom{float: right;margin: 0 0 10px 0;margin-right: 60px;}
+#widget_pager_bottom_HP_slideshow-block_1{margin: 2px 0 0 280px !important;margin: 2px 0 0 80px;}
+#views_slideshow_controls_text_HP_slideshow-block_1
+{height: 20px;margin: 0 auto;width: 90px;float: right;}
+/*Style */
+.widget_pager .views_slideshow_pager_field_item{
+  background-color: #E85134;
+  border-radius: 6px 6px 6px 6px;
+  float: left;
+  height: 12px;
+  width: 12px;
+  margin-right: 5px;
+  text-indent: -9999px;
+  cursor: pointer;}
+.widget_pager .active,
+#widget_pager_bottom_HP_slideshow-block_1 .widget_pager :hover
+{background-color: #93117E;border-radius: 6px 6px 6px 6px;height: 12px;width: 12px;}
+/*Boutons Prev/next*/
+
+.views_slideshow_controls_text_previous,
+.views_slideshow_controls_text_next,
+.views_slideshow_controls_text_pause
+{ width:18px;
+  height:0px;
+  padding-top:18px;
+  display: inline-block;
+  overflow:hidden;}
+span.views_slideshow_controls_text_previous{background:url('../css_galeries/images/button_nav.png')0 18px;}
+span.views_slideshow_controls_text_pause{}
+span.views_slideshow_controls_text_next{background:url('../css_galeries/images/button_nav.png') 18px 18px;}
+span.views_slideshow_controls_text :hover{background:url('../css_galeries/images/button_nav.png') 18px;}

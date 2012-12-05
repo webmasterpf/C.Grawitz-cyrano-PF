@@ -1337,3 +1337,19 @@ h1.titre_page_vdl{
     float: right;
     border: 1px solid #F29400;
 }
+/*==
+== Pager pour pages archives(listes) ===
+==*/
+#bloc_liste_vdl ul.pager,#bloc_liste_lycee-entreprise ul.pager,#bloc_liste_actus ul.pager{margin: 3px auto;width: 95%;display: block;padding: 3px;}
+#bloc_liste_vdl .pager li,#bloc_liste_lycee-entreprise .pager li,#bloc_liste_actus .pager li
+{float: left;}
+#bloc_liste_vdl .pager li a,#bloc_liste_lycee-entreprise .pager li a,#bloc_liste_actus .pager li a{color:#1F1F1F;}
+#bloc_liste_vdl .pager li.pager-item,#bloc_liste_lycee-entreprise .pager li.pager-item,#bloc_liste_actus .pager li.pager-item,
+#bloc_liste_vdl .pager li.pager-current,#bloc_liste_lycee-entreprise .pager li.pager-current,#bloc_liste_actus .pager li.pager-current
+{padding: 3px;border-radius: 10px; height: 15px;width: 15px;}
+#bloc_liste_vdl .pager li.pager-item,#bloc_liste_lycee-entreprise .pager li.pager-item,#bloc_liste_actus .pager li.pager-item
+{background:#91127D ;color:#EFEFEF;}
+#bloc_liste_vdl .pager li.pager-item a,#bloc_liste_lycee-entreprise .pager li.pager-item a,#bloc_liste_actus .pager li.pager-item a{color:#EFEFEF;}
+#bloc_liste_vdl .pager li.pager-current,#bloc_liste_lycee-entreprise .pager li.pager-current,#bloc_liste_actus .pager li.pager-current
+{background: #F29400;color:#3F3F3F;}
+
