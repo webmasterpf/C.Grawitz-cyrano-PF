@@ -176,6 +176,9 @@ text-decoration:underline;
 #BasDroitHP h3,#BasGaucheHP h3{
     text-align: center;
 }
+#BasGaucheHP iframe{
+    margin: 1em 0 0 6em;
+}
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE  PANORAMIQUE----*/
 #transparency{
 background:none repeat scroll 0 0 #F29400;/*Couleur du fond*/
