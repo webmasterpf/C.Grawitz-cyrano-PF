@@ -316,16 +316,16 @@ li.sfHover > a > .sf-sub-indicator {
   font-weight: bold;
   color: #606070;/*couleur des a *//*violet : #95107D vert :#AEC721 rose :#E1017B anthracite : #606070*/
 }
-
 .sf-navbar a:hover{
-    color: #F29400;/*couleur des a:hover */
+    color: #E55137;/*couleur des a:hover */
     background: #D0D1D2; /*couleur ar plan au rollover sur un item*/
    
 }
-/*Rubrique active - Active Trail*/
-.sf-navbar li.sf-breadcrumb > a,.sf-navbar li.active-trail > a{color: #11B0D5;background: #D0D1D2;}
-  
-
+.sf-navbar a.active{
+     color: #E55137; /*couleur du lien courant- tester sur FF3 IE8 SAFARI 4 OPERA 10*/
+     background: #D0D1D2; /*couleur ar plan au rollover sur un item*/
+    
+}
 ul.sf-navbar .current ul,
 ul.sf-navbar ul li:hover ul,
 ul.sf-navbar ul li.sfHover ul {

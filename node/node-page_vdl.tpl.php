@@ -2,7 +2,7 @@
 /* Ce template permet la création d'un layout multicolonne pour le spages de base, en permettant la disposition facile
  * des champs CCK custom, si nécessaires pour une page de base.
 */?>
-<!--______________NODE TPL POUR PAGE.TPL CUSTOM________________ -->
+<!--______________NODE TPL POUR node-page_vdl.tpl CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
     <div class="node-inner">
         <!--______________COLONNE 1________________ -->
@@ -13,6 +13,10 @@
          */?>
       <div id="col_G1" class="page_vdl_content_col_G1">
            
+           <?php 
+              $theme_path = drupal_get_path('theme', 'cyrano_cg');
+              include ($theme_path.'/includes/inc_vue_grawitz_actus.php');
+              ?>
              <?php
               $theme_path = drupal_get_path('theme', 'cyrano_cg');
               include ($theme_path.'/includes/inc_region_col_G1.php');
@@ -53,10 +57,6 @@
       <div id="col_G3" class="page_vdl_content_col_G3">
          
 
-           <?php 
-              $theme_path = drupal_get_path('theme', 'cyrano_cg');
-              include ($theme_path.'/includes/inc_vue_grawitz_actus.php');
-              ?>
 
 
     <?php

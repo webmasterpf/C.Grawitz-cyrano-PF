@@ -36,8 +36,8 @@
                 <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
 
                  <?php
-              $theme_path = drupal_get_path('theme', 'cyrano_cg');
-              include ($theme_path.'/includes/inc_liste_lycee_entreprise.php');
+           //   $theme_path = drupal_get_path('theme', 'cyrano_cg');
+           //   include ($theme_path.'/includes/inc_liste_lycee_entreprise.php');
               ?>
 
                     <?php

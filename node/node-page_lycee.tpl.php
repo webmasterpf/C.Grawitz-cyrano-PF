@@ -53,9 +53,10 @@
     <div class="content">
 
 
-        <?php if ($node->field_fichier_joint_lycee[0]['view']): ?>
+        <?php if ($node->field_fichier_joint_lycee[0]['view'] 
+                OR $node->field_lien_page_lycee[0]['view']): ?>
         <div id="fichier-joint-plycee">
-            <h3>Documents utiles</h3>
+            <h3>Utile</h3>
            <?php  print $node->field_fichier_joint_lycee[0]['view'];?>
              <?php  print $node->field_lien_page_lycee[0]['view'];?>
 

@@ -7,6 +7,8 @@
     <meta name="google-site-verification" content="msBEDS9QaIIEpzPS6_Wi-HOzKWr1Kw0dageOmF-4rbs" />
     <META name="y_key" content="11677ed5e2db4f15" />
     <meta name="msvalidate.01" content="E2114447554473259DE0996EF11B87E0" />
+    <!-- Pour CSS selon taille de l'ecran = tactile -->
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
     <?php print $head; ?>
     <?php print $styles; ?>
     <?php print $scripts; ?>
