@@ -192,6 +192,8 @@ padding: 5px;
 .breadcrumb {
 color:#d63e2a;
 text-decoration:none;
+display: flex;
+padding: 0 1em;
 }
 /*ariane{
     display: block;
@@ -199,12 +201,21 @@ text-decoration:none;
 background: white;
 }*/
 
-.breadcrumb a{
+.breadcrumb a,.breadcrumb span.menu-item-container a,.breadcrumb span.menu-item-container{
 color:#4e4d5e;
 text-decoration:none;
 background: white;
+display: block;
+font-size: inherit;
+font-weight: inherit;
+height: auto;
+text-align: inherit;
+text-transform: inherit;
+background: transparent;
+padding: inherit;
+float: left;
 }
-.breadcrumb a:hover{
+.breadcrumb a:hover,.breadcrumb span.menu-item-container a:hover{
 color:#000;
 text-decoration:underline;
 }

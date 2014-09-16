@@ -69,15 +69,16 @@ Active trail sur élément de la rubrique = OK
 .sf-menu.sf-style-blue.sf-navbar li li,
 span.menu-item-container{/*hover des li*/
   background: #D0D1D2;
-  color: #E2001A;/*couleur des a *//*violet : #95107D vert :#AEC721 rose :#E1017B anthracite : #606070 rouge:#E2001A*/
+  color: #F29400;/*couleur des a *//*violet : #95107D vert :#AEC721 rose :#E1017B anthracite : #606070 rouge:#E2001A*/
 }
 /*Rubrique active - Active Trail*/
-.sf-menu.sf-style-blue li.active-trail,.sf-menu.sf-style-blue li.active-trail > a{color: #E2001A;background: #D0D1D2;}
+.sf-menu.sf-style-blue li.active-trail,.sf-menu.sf-style-blue li.active-trail > a
+{color: #F29400;background: #D0D1D2;}/*couleur des a:activeS*/
 
 /*MENU ITEM CONTAINER*/
-span.menu-item-container{display: block;font-size: 12px;font-weight: bold;height: 2.4em;
+span.menu-item-container{display: block;font-size: 12px;font-weight: bold;height: 2.2em;
     text-align: center;text-transform: uppercase;background: transparent;color: #606070;padding: 15px 0 0;}
-.sf-menu.sf-style-blue li span.menu-item-container:hover{background:#D0D1D2;color: #E2001A;}
+.sf-menu.sf-style-blue li span.menu-item-container:hover{background:#D0D1D2;color: #F29400;}/*hover du container*/
 .sf-menu.sf-style-blue.sf-navbar li ul {
   background-color: #3270c5;/*UL de sous-rubrique*/
 }
