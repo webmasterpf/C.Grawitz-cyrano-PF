@@ -759,6 +759,16 @@ h1.titre_pl a:hover{}
 }
 /*********************************
 ----------------------------------
+--------- PAGE RESULTATS --------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+.table-resultats{}
+.table-resultats table{width: auto;}
+.table-resultats tr{border-bottom: 1px solid #F29400;}
+.table-resultats tr:hover{background: gainsboro;}
+.table-resultats td{}
+.table-resultats{}
+/*********************************
+----------------------------------
 ---- PAGE POLE NODE.TPL --------
 ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
 

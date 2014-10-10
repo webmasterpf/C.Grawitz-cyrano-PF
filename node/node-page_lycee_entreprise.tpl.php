@@ -12,7 +12,10 @@
          * .col3_layout_200_590_200{} .col3_layout_330_all{} .col3_layout_18_56_25{}
          */?>
       <div id="col_G1" class="page_lycee_entreprise_content_col_G1">
-           
+           <?php
+              $theme_path = drupal_get_path('theme', 'cyrano_cg');
+              include ($theme_path.'/includes/inc_vue_grawitz_actus.php');
+              ?>
              <?php
               $theme_path = drupal_get_path('theme', 'cyrano_cg');
               include ($theme_path.'/includes/inc_region_col_G1.php');
@@ -56,10 +59,7 @@
               include ($theme_path.'/includes/inc_entreprise_logo.php');
               ?>
 
-           <?php
-              $theme_path = drupal_get_path('theme', 'cyrano_cg');
-              include ($theme_path.'/includes/inc_vue_grawitz_actus.php');
-              ?>
+           
 
 
     <?php
